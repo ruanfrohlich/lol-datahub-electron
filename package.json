@@ -1,0 +1,39 @@
+{
+  "name": "lol-datahub-electron",
+  "version": "0.0.1",
+  "main": "electron/js/main.js",
+  "contributors": [
+    {
+      "name": "Ruan Frohlich <ruanfrohlich@gmail.com>"
+    },
+    {
+      "name": "Kelvin Seibt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ruanfrohlich/lol-datahub-electron.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc electron/*.ts --outDir electron/js && cross-env NODE_ENV=development electron .",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.1.0",
+    "@types/react": "18.2.38",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "electron": "^27.1.2",
+    "express": "^4.18.2",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "5.3.2"
+  },
+  "dependencies": {
+    "next": "^14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
