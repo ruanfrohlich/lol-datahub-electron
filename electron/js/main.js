@@ -2,7 +2,6 @@ var _a = require('electron'), app = _a.app, BrowserWindow = _a.BrowserWindow;
 var path = require('node:path');
 var express = require('express');
 var next = require('next');
-var hostname = require('node:os').hostname;
 var port = 3000;
 var dev = process.env.NODE_ENV !== 'production';
 var nextApp = next({ dev: dev });
@@ -16,7 +15,7 @@ var createWindow = function () {
         },
     });
     if (dev) {
-        win.loadURL("http://".concat(hostname, ":").concat(port));
+        win.loadURL("http://localhost:".concat(port));
         win.webContents.openDevTools();
     }
     else {
@@ -32,7 +31,7 @@ app.whenReady().then(function () {
         server.listen(port, function (err) {
             if (err)
                 throw err;
-            console.log("Runing on port ".concat(port, ", dev: ").concat(dev));
+            console.log("Server running on http://localhost:".concat(port));
         });
         createWindow();
         app.on('activate', function () {

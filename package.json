@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "tsc electron/*.ts --outDir electron/js && cross-env NODE_ENV=development electron .",
+    "dev": "tsc electron/*.ts --outDir electron/js && cross-env ELECTRON_DISABLE_SECURITY_WARNINGS=true NODE_ENV=development electron .",
     "lint": "next lint"
   },
   "devDependencies": {

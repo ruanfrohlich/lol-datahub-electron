@@ -2,7 +2,6 @@ const { app, BrowserWindow } = require('electron');
 const path = require('node:path');
 const express = require('express');
 const next = require('next');
-const { hostname } = require('node:os');
 const port = 3000;
 const dev = process.env.NODE_ENV !== 'production';
 const nextApp = next({ dev });
@@ -18,7 +17,7 @@ const createWindow = () => {
   });
 
   if (dev) {
-    win.loadURL(`http://${hostname}:${port}`);
+    win.loadURL(`http://localhost:${port}`);
     win.webContents.openDevTools();
   } else {
     win.loadFile(path.join(__dirname, '../out/index.html'));
@@ -35,7 +34,7 @@ app.whenReady().then(() => {
 
     server.listen(port, (err) => {
       if (err) throw err;
-      console.log(`Runing on port ${port}, dev: ${dev}`);
+      console.log(`Server running on http://localhost:${port}`);
     });
 
     createWindow();
