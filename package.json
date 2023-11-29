@@ -16,7 +16,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "tsc electron/*.ts --outDir electron/js && cross-env ELECTRON_DISABLE_SECURITY_WARNINGS=true NODE_ENV=development electron .",
+    "build": "tsc electron/main.ts --outDir electron/js && tsc electron/preload.ts --outDir electron/js",
+    "dev": "cross-env ELECTRON_DISABLE_SECURITY_WARNINGS=true NODE_ENV=development electron .",
     "lint": "next lint"
   },
   "devDependencies": {
@@ -34,6 +35,7 @@
   "dependencies": {
     "next": "^14.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ws": "^8.14.2"
   }
 }
