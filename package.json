@@ -1,7 +1,7 @@
 {
   "name": "lol-datahub-electron",
   "version": "0.0.1",
-  "main": "electron/js/main.js",
+  "main": "electron/main.js",
   "contributors": [
     {
       "name": "Ruan Frohlich <ruanfrohlich@gmail.com>"
@@ -16,8 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsc electron/main.ts --outDir electron/js && tsc electron/preload.ts --outDir electron/js",
-    "dev": "cross-env ELECTRON_DISABLE_SECURITY_WARNINGS=true NODE_ENV=development electron .",
+    "dev": "cross-env electron .",
     "lint": "next lint"
   },
   "devDependencies": {
@@ -33,6 +32,7 @@
     "typescript": "5.3.2"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "next": "^14.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

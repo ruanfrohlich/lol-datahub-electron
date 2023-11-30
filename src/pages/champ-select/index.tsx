@@ -3,13 +3,19 @@ import { useRouter } from 'next/router'
 const ChampSelect = () => {
   const router = useRouter()
 
-  console.log(router.query)
+  const {championId, assignedPosition} = router.query
 
   return (
     <div className='flex space-x-2'>
-      <span className="text-3xl font-semibold">Builds para</span>
-      <span className="text-3xl font-semibold">{router.query.championId}</span>
-      <span className="text-3xl font-semibold">{router.query.assignedPosition}</span>
+      { championId ? (
+        <>
+          <span className="text-3xl font-semibold">Builds para</span>
+          <span className="text-3xl font-semibold">{championId}</span>
+          <span className="text-3xl font-semibold">{assignedPosition}</span>
+        </>
+      ) : (
+        <span className="text-3xl font-semibold">Selecione o campeão</span>
+      )}
     </div>
   );
 };
