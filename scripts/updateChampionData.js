@@ -16,7 +16,13 @@ async function getLatestDDragonData() {
    const champions = await ddragon.json()
    championJson = champions.data;
    
-   fs.writeFileSync('./data/champions.json', JSON.stringify(championJson, null, 2));
+   let championsData = []
+
+   for (const [_, value] of Object.entries(championJson)) {
+      championsData.push(value)
+   }
+   
+   fs.writeFileSync('./data/champions.json', JSON.stringify(championsData, null, 2));
 }
 
 getLatestDDragonData()
