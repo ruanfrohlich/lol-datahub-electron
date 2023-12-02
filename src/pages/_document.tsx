@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR" style={{ scrollBehavior: 'smooth' }}>
         <Head />
-        <body>
+        <body className='bg-background dark:bg-woodsmoke-950'>
           <Main />
           <NextScript />
         </body>
