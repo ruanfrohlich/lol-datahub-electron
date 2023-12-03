@@ -11,6 +11,7 @@ class LeagueOfLegendsWSS {
   constructor(windowManager) {
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
     this.windowManager = windowManager;  
+    this.lastEvent = 'None';
   }
   
   /**
@@ -78,18 +79,28 @@ class LeagueOfLegendsWSS {
    */
   processPayload(eventName, payloadData) {
     if (eventName === 'None') return
+    if (eventName === this.lastEvent) return
 
     if (eventName === 'selectLegacy' || eventName === 'selectV1') {
-      this.windowManager.loadPage('champ-select/', true)
+      const myData = payloadData.myTeam.find((data) => {
+        return data.summonerId === 6943402 || data.summonerId === 3968244
+      })
+
+      if (myData) {
+        this.windowManager.loadPage(`champion-suggestion/`, true)
+        // Deve fazer esta acao apenas uma vez por lobby
+        this.lastEvent = eventName
+      }
     }
 
     if (eventName === 'updateLegacy' || eventName === 'updateV1') {
       const myData = payloadData.myTeam.find((data) => {
-        return data.summonerId === 6943402
+        return data.summonerId === 6943402 || data.summonerId === 3968244
       })
-      
-      if (myData) {
-        this.windowManager.loadPage(`champ-select/?championId=${myData.championId}&assignedPosition=${myData.assignedPosition}`)
+
+      if (myData && myData?.championId > 0) {
+        this.windowManager.loadPage(`champion-select/?championId=${myData.championId}&assignedPosition=${myData.assignedPosition}`)
+        this.lastEvent = 'None';
       }
     }
   }

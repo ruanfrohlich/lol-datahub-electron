@@ -35,7 +35,7 @@ const Home = () => {
                 rounded 
                 p-4 m-2
                 flex flex-col items-center space-y-4'
-                onClick={() => router.push(`/champ-select/?championId=${champion.key}&assignedPosition=`)}>
+                onClick={() => router.replace(`/champion-select/?championId=${champion.key}&assignedPosition=`)}>
                 <div className='w-24 h-24'>
                   <img 
                     className='rounded-full' 
