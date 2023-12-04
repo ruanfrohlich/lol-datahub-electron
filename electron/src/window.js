@@ -41,6 +41,8 @@ class WindowManager {
       },
     });
 
+    this.devMode && this.window.webContents.openDevTools();
+
     this.window.loadURL(this.express_url);
     // if (this.devMode) {
     //   this.window.loadURL(this.express_url);
