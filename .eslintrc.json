@@ -1,0 +1,22 @@
+{
+  "extends": ["eslint:recommended", "next/core-web-vitals"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "next": {
+      "rootDir": "src"
+    }
+  },
+  "rules": {
+    "camelcase": "warn",
+    "eqeqeq": "warn",
+    "dot-notation": "warn",
+    "comma-dangle": "error",
+    "jsx-quotes": ["warn", "prefer-single"],
+    "quotes": ["warn", "single"],
+    "semi": "error",
+    "indent": ["error", 2]
+  }
+}

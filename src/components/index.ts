@@ -1,11 +1,20 @@
-import Select from "./Select";
-import ChampionSkillsTable from "./ChampionSkillsTable";
-import ItemsList from "./ItemsList";
-import Runes from "./Runes";
+import Layout from '@/layout/layout';
+import TableOfSkills from './TableOfSkills/index';
+import TopChampionsByLane from './TopChampionsByLane';
+import ChampionBuild from './ChampionBuild';
+import TheTitle from './objects/TheTitle';
+import TheLoadingModal from './modals/TheLoadingModal';
+import { AppContext, AppProvider } from './common/AppProvider';
+import Tooltip from './objects/Tooltip';
 
 export {
-  Select,
-  ChampionSkillsTable,
-  ItemsList,
-  Runes
-}
+  Layout,
+  TableOfSkills,
+  TopChampionsByLane,
+  ChampionBuild,
+  TheTitle,
+  TheLoadingModal,
+  AppContext,
+  AppProvider,
+  Tooltip,
+};
