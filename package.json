@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env electron .",
+    "dev": "cross-env electron --trace-warnings .",
     "lint": "next lint"
   },
   "devDependencies": {

@@ -22,4 +22,4 @@ app.whenReady().then(() => {
   });
 });
 
-app.on('window-all-closed', () => utils.closeOSXApp());
+app.on('window-all-closed', () => utils.closeOSXApp(app));

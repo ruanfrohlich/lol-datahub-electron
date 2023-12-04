@@ -4,7 +4,7 @@ class Utils {
    *
    * @return {void}
    */
-  static closeOSXApp() {
+  static closeOSXApp(app) {
     if (process.platform !== 'darwin') {
       app.quit();
     }
