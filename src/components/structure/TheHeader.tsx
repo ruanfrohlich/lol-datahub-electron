@@ -79,7 +79,7 @@ const TheHeader = forwardRef(function TheHeader(
   }, [wrapperRef]);
 
   return (
-    <header className='px-2 pt-2 pb-0' ref={ref}>
+    <header className='px-2 pt-2 pb-0 z-[9999]' ref={ref}>
       <div className='container flex justify-between items-center py-3 mx-auto'>
         <Link
           href='/'
@@ -88,7 +88,9 @@ const TheHeader = forwardRef(function TheHeader(
           LoL DataHub
         </Link>
         <div
-          className='relative w-[400px] transition-[width] duration-300 ease-in-out focus-within:w-[60%]'
+          className={`relative w-[400px] transition-[width] duration-300 ease-in-out focus-within:w-[60%] ${
+            focus ? 'w-[60%]' : ''
+          }`}
           ref={wrapperRef}
         >
           <div className='relative rounded-md'>
