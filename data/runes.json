@@ -1,30 +1,30 @@
 [
   {
     "id": 8369,
-    "name": "First Strike",
+    "name": "Primeiro Ataque",
     "majorChangePatchVersion": "11.23",
-    "tooltip": "Attacks or abilities against an enemy champion within @GraceWindow.2@s of entering champion combat grants @GoldProcBonus@ gold and <b>First Strike</b> for @Duration@ seconds, causing you to deal <truedamage>@DamageAmp*100@%</truedamage> extra <truedamage>damage</truedamage> against champions, and granting <gold>{{ Item_Melee_Ranged_Split }}</gold> of that damage dealt as <gold>gold</gold>.<br><br>Cooldown: <scaleLevel>@Cooldown@</scaleLevel>s<br><hr><br>Damage Dealt: @f1@<br>Gold Gained: @f2@",
-    "shortDesc": "When you initiate champion combat, deal 7% extra damage for 3 seconds and gain gold based on damage dealt.",
-    "longDesc": "Attacks or abilities against an enemy champion within 0.25s of entering champion combat grants 5 gold and <b>First Strike</b> for 3 seconds, causing you to deal <truedamage>7%</truedamage> extra <truedamage> damage</truedamage> against champions, and granting <gold>100% (70% for ranged champions)</gold> of bonus damage dealt as <gold>gold</gold>.<br><br>Cooldown: <scaleLevel>25 - 15</scaleLevel>s",
-    "recommendationDescriptor": "True Damage, Income",
+    "tooltip": "Ataques ou Habilidades contra um Campeão inimigo em até @GraceWindow.2@s depois de entrar em combate contra um Campeão concedem @GoldProcBonus@ de ouro e <b>Primeiro Ataque</b> por @Duration@s. Durante esse período, você causa <truedamage>@DamageAmp*100@%</truedamage> de <truedamage>dano</truedamage> adicional a Campeões e recebe <gold>{{ Item_Melee_Ranged_Split }}</gold> do dano causado como <gold>ouro</gold>.<br><br>Tempo de Recarga: <scaleLevel>@Cooldown@</scaleLevel>s<br><hr><br>Dano causado: @f1@<br>Ouro recebido: @f2@",
+    "shortDesc": "Ao iniciar um combate contra um Campeão, você causa 7% de dano adicional por 3s e recebe ouro com base no dano causado.",
+    "longDesc": "Ataques ou Habilidades contra um Campeão inimigo em até 0.25s depois de entrar em combate contra um Campeão concedem 5 de ouro e <b>Primeiro Ataque</b> por 3s. Durante esse período, você causa <truedamage>7%</truedamage> de <truedamage>dano</truedamage> adicional a Campeões e recebe <gold>100% (70% para Campeões de ataque à distância)</gold> do dano adicional causado como <gold>ouro</gold>.<br><br>Tempo de Recarga: <scaleLevel>25s - 15</scaleLevel>s",
+    "recommendationDescriptor": "Dano Verdadeiro, acúmulo de ouro",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png",
     "endOfGameStatDescs": [
-      "Damage Dealt: @eogvar1@",
-      "Gold Gained: @eogvar2@"
+      "Dano causado: @eogvar1@",
+      "Ouro recebido: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8446,
-    "name": "Demolish",
+    "name": "Demolir",
     "majorChangePatchVersion": "",
-    "tooltip": "Charge up a powerful attack against a tower over 3s, while within 600 range of it. The charged attack deals <scaleAD>@f6@</scaleAD> bonus physical damage. <br><hr><br>Cooldown remaining: @f2@<br>Total bonus damage: <scaleAD>@f1@</scaleAD><br>Current Damage: 100 + 35% of your max health",
-    "shortDesc": "Charge up a powerful attack against a tower while near it.",
-    "longDesc": "Charge up a powerful attack against a tower over 3s, while within 600 range of it. The charged attack deals 100 (+35% of your max health) bonus physical damage. <br><br>Cooldown: 45s",
+    "tooltip": "Carrega um poderoso ataque contra uma torre ao longo de 3s, enquanto estiver dentro de um alcance de 600 referente a ela. O ataque carregado causa <scaleAD>@f6@</scaleAD> de Dano Físico adicional. <br><hr><br>Tempo de Recarga restante: @f2@<br>Total de dano adicional: <scaleAD>@f1@</scaleAD><br>Dano atual: 100 + 35% de sua Vida máxima",
+    "shortDesc": "Carrega um poderoso ataque contra uma torre enquanto estiver perto dela.",
+    "longDesc": "Carrega um poderoso ataque contra uma torre ao longo de 3s, enquanto estiver dentro de um alcance de 600 em relação a ela. O ataque carregado causa 100 (+35% de sua Vida máxima) de Dano Físico adicional. <br><br>Tempo de Recarga: 45s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Demolish/Demolish.png",
     "endOfGameStatDescs": [
-      "Total Bonus Damage: @eogvar1@"
+      "Total de dano adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -32,15 +32,15 @@
   },
   {
     "id": 8126,
-    "name": "Cheap Shot",
+    "name": "Golpe Desleal",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><hr><br>Current Damage: @f2@<br>Total bonus damage dealt: @f1@",
-    "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
-    "longDesc": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules>",
-    "recommendationDescriptor": "Earned by winning ranked games in Season 2020 - Split 1.",
+    "tooltip": "Causar dano a Campeões com <b>movimento ou ações debilitadas</b> causa 10 - 45 de Dano Verdadeiro adicional (com base no nível).<br><br>Tempo de Recarga: 4s<br><rules>É ativado pelo dano causado após a debilitação.</rules><br><hr><br>Dano atual: @f2@<br>Total de dano adicional causado: @f1@",
+    "shortDesc": "Causa Dano Verdadeiro adicional a Campeões inimigos com <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>mobilidade ou ações debilitadas</lol-uikit-tooltipped-keyword>. ",
+    "longDesc": "Causar dano a Campeões com <b>movimento ou ações debilitadas</b> causa 10 - 45 de Dano Verdadeiro adicional (com base no nível).<br><br>Tempo de Recarga: 4s<br><rules>É ativado pelo dano causado após a debilitação.</rules>",
+    "recommendationDescriptor": "Obtido ao vencer partidas ranqueadas na Temporada 2020 - Etapa 1.",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/CheapShot/CheapShot.png",
     "endOfGameStatDescs": [
-      "Total damage: @eogvar1@"
+      "Total de dano: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 5,
@@ -49,15 +49,15 @@
   },
   {
     "id": 8321,
-    "name": "Future's Market",
+    "name": "Mercado do Futuro",
     "majorChangePatchVersion": "",
-    "tooltip": "You can enter debt to buy items. The amount you can borrow increases over time. If you enter debt, you will be charged a lending fee of <attention>50</attention> gold.<br><br>Debt limit: <attention>Available at 2 minutes</attention><br>Future Purchases: <attention>@f3@</attention>",
-    "shortDesc": "You can enter debt to buy items.",
-    "longDesc": "You can enter debt to buy items. The amount you can borrow increases over time. If you enter debt, you will be charged a lending fee of <attention>50</attention> gold.<br>Debt limit: 100 + 8/min<br>(Debt doesn't become available until 2 minutes)",
+    "tooltip": "Você pode ficar em débito para comprar itens. A quantidade que você pode pegar emprestada aumenta com o tempo. Se ficar em débito, você receberá uma cobrança de taxa de empréstimo de <attention>50</attention> de ouro.<br><br>Limite de débito: <attention>Disponível em 2 min</attention><br>Compras futuras: <attention>@f3@</attention>",
+    "shortDesc": "Você pode ficar em débito para comprar itens.",
+    "longDesc": "Você pode ficar em débito para comprar itens. A quantidade que você pode pegar emprestada aumenta com o tempo. Se ficar em débito, você receberá uma cobrança de taxa de empréstimo de <attention>50</attention> de ouro.<br>Limite de débito: 100 + 8/min<br>(O débito só fica disponível a partir dos 2 minutos)",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/FuturesMarket/FuturesMarket.png",
     "endOfGameStatDescs": [
-      "Future Purchases: @eogvar1@"
+      "Compras futuras: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kGold": 15
@@ -65,11 +65,11 @@
   },
   {
     "id": 8415,
-    "name": "The Arcane Colossus",
+    "name": "O Colosso Arcano",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathResolve>Resolve</pathResolve> + <pathSorcery>Sorcery</pathSorcery> <br>+0-0 Health based on level<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathResolve>Resolve</pathResolve> + <pathSorcery>Sorcery</pathSorcery> Set Bonus</pathBonus>",
-    "longDesc": "+0-0 Health based on level<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathResolve>Determinação</pathResolve> + <pathSorcery>Feitiçaria</pathSorcery> <br>+0 - 0 de Vida com base no nível<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathResolve>Determinação</pathResolve> + <pathSorcery>Feitiçaria</pathSorcery></pathBonus>",
+    "longDesc": "+0 - 0 de Vida com base no nível<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -77,15 +77,15 @@
   },
   {
     "id": 8410,
-    "name": "Approach Velocity",
+    "name": "Velocidade de Aproximação",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain <speed>7.5% Move Speed</speed> towards nearby enemy champions that are movement impaired. This bonus is increased to <speed>15% Move Speed</speed> for any enemy champion that you impair. <br><br>Activation Range for CC from allies: 1000<br><hr><br>Time Spent Hasted: @f1@s",
-    "shortDesc": "Bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> towards nearby enemy champions that are <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>movement impaired</lol-uikit-tooltipped-keyword>, increased for enemy champions that you impair.",
-    "longDesc": "Gain <speed>7.5% Move Speed</speed> towards nearby enemy champions that are movement impaired. This bonus is increased to <speed>15% Move Speed</speed> for any enemy champion that you impair. <br><br>Activation Range for CC from allies: 1000",
+    "tooltip": "Recebe <speed>7.5% de Velocidade de Movimento</speed> em direção a Campeões inimigos próximos que estiverem com movimento debilitado. Esse bônus aumenta para <speed>15% de Velocidade de Movimento</speed> em direção a Campeões inimigos cujo movimento você debilitou. <br><br>Alcance de ativação do CG de aliados: 1000<br><hr><br>Tempo enquanto acelerado: @f1@s",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword> adicional em direção a Campeões inimigos próximos com <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>movimento debilitado</lol-uikit-tooltipped-keyword>, aumentada em Campeões inimigos cujo movimento você debilitou.",
+    "longDesc": "Recebe <speed>7.5% de Velocidade de Movimento</speed> em direção a Campeões inimigos próximos que estiverem com movimento debilitado. Esse bônus aumenta para <speed>15% de Velocidade de Movimento</speed> em direção a Campeões inimigos cujo movimento você debilitou. <br><br>Alcance de ativação do CG de aliados: 1000",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png",
     "endOfGameStatDescs": [
-      "Time Spent Hasted: @eogvar1@"
+      "Tempo enquanto acelerado: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kMoveSpeed": 10
@@ -93,15 +93,15 @@
   },
   {
     "id": 8232,
-    "name": "Waterwalking",
+    "name": "Caminhar Sobre as Águas",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain <speed>10 Move Speed</speed> and an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level) when in the river.",
-    "shortDesc": "Gain <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> and AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> in the river.",
-    "longDesc": "Gain <speed>10 Move Speed</speed> and an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level) when in the river.<br><br><hr><br><i>May you be as swift as the rushing river and agile as a startled Rift Scuttler.</i><br>",
+    "tooltip": "Recebe <speed>10 de Velocidade de Movimento</speed> e um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até 18 de Dano de Ataque ou 30 de Poder de Habilidade (com base no nível) enquanto estiver no rio.",
+    "shortDesc": "Concede <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword> e PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Adaptativos</lol-uikit-tooltipped-keyword> no rio.",
+    "longDesc": "Recebe <speed>10 de Velocidade de Movimento</speed> e um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até 18 de Dano de Ataque ou 30 de Poder de Habilidade (com base no nível) enquanto estiver no rio.<br><br><hr><br><i>Que você seja tão veloz quanto o rio caudaloso e tão ágil quanto um Aronguejo assustado.</i><br>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png",
     "endOfGameStatDescs": [
-      "Total time active: @eogvar1@:@eogvar2@"
+      "Total de tempo ativo: @eogvar1@:@eogvar2@s"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 2,
@@ -111,15 +111,15 @@
   },
   {
     "id": 8299,
-    "name": "Last Stand",
+    "name": "Até a Morte",
     "majorChangePatchVersion": "",
-    "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>",
-    "shortDesc": "Deal more damage to champions while you are low on health.",
-    "longDesc": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.",
+    "tooltip": "Causa de 5% a 11% a mais de dano a Campeões enquanto sua Vida estiver abaixo de 60%. O dano máximo é atingido com 30% de Vida.<br><br><rules>O adicional mínimo é de 5%.<br>O adicional máximo é concedido enquanto estiver com menos de 30% de Vida.</rules><br><hr><br>Total de dano adicional: <scaleAD>@f1@</scaleAD>",
+    "shortDesc": "Cause mais dano a Campeões enquanto estiver com pouca Vida.",
+    "longDesc": "Causa de 5% a 11% a mais de dano a Campeões enquanto sua Vida estiver abaixo de 60%. O dano máximo é atingido com 30% de Vida.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/LastStand/LastStand.png",
     "endOfGameStatDescs": [
-      "Total Bonus Damage: @eogvar1@"
+      "Total de dano adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 1,
@@ -128,29 +128,29 @@
   },
   {
     "id": 8112,
-    "name": "Electrocute",
+    "name": "Eletrocutar",
     "majorChangePatchVersion": "",
-    "tooltip": "Hitting a champion with 3 <b>separate</b> attacks or abilities within 3s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br>Cooldown: 25 - 20s<br><hr><br>Current damage: @f2@ (<scaleAP>+@f3@</scaleAP>) (<scaleAD>+@f4@</scaleAD>)<br>Total Damage Dealt: <scaleAD>@f1@</scaleAD>",
-    "shortDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities in 3s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
-    "longDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities within 3s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br>Damage: 30 - 220 (+0.1 bonus AD, +0.05 AP) damage.<br><br>Cooldown: 25 - 20s<br><br><hr><i>'We called them the Thunderlords, for to speak of their lightning was to invite disaster.'</i>",
-    "recommendationDescriptor": "Combo Damage",
+    "tooltip": "Acertar um Campeão com 3 habilidades ou ataques <b>separados</b> em até 3s causa <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'> <font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword>.<br>Tempo de Recarga: 25s - 20s<br><hr><br>Dano atual: @f2@ (<scaleAP>+@f3@</scaleAP>) (<scaleAD>+@f4@</scaleAD>)<br>Total de dano causado: <scaleAD>@f1@</scaleAD>",
+    "shortDesc": "Acertar um Campeão com 3 ataques ou habilidades <b>separadas</b> em 3s causa <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
+    "longDesc": "Acertar um Campeão com 3 ataques ou habilidades <b>separadas</b> em até 3s causa <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.<br><br>Dano: 30 a 220 (+0.1 de DdA adicional, +0.05 de PdH) de dano.<br><br>Tempo de Recarga: 25s a 20s<br><br><hr><i>''Nós os chamávamos de Senhores do Trovão, porque mencionar seus raios era um prenúncio para um desastre.''</i>",
+    "recommendationDescriptor": "Dano de combo",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/Electrocute/Electrocute.png",
     "endOfGameStatDescs": [
-      "Total Damage Dealt: @eogvar1@"
+      "Total de dano causado: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8234,
-    "name": "Celerity",
+    "name": "Celeridade",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "All movement bonuses are 7% more effective on you and gain <speed>1% Move Speed</speed>.<br><br>Currently Granted: <speed>@f1@ Move Speed</speed><br>Extra Distance Traveled: @f2@",
-    "shortDesc": "All <speed>Move Speed</speed> bonuses are 7% more effective on you and gain <speed>1% Move Speed</speed>.",
-    "longDesc": "All movement bonuses are 7% more effective on you and gain <speed>1% Move Speed</speed>.",
+    "tooltip": "Todos os efeitos de movimentação são 7% mais eficazes em você, além de conceder <speed>1% de Velocidade de Movimento</speed>.<br><br>Concedida no momento: <speed>@f1@ de Velocidade de Movimento</speed><br>Distância adicional percorrida: @f2@",
+    "shortDesc": "Todos os efeitos de <speed>Velocidade de Movimento</speed> adicional são 7% mais eficazes em você, além de conceder <speed>1% de Velocidade de Movimento</speed>.",
+    "longDesc": "Todos os efeitos de movimentação são 7% mais eficazes em você, além de conceder <speed>1% de Velocidade de Movimento</speed>.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Celerity/CelerityTemp.png",
     "endOfGameStatDescs": [
-      "Extra Distance Travelled: @eogvar1@"
+      "Distância adicional percorrida: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kMoveSpeed": 10
@@ -158,16 +158,16 @@
   },
   {
     "id": 8453,
-    "name": "Revitalize",
+    "name": "Revitalizar",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain 5% Heal and Shield Power.<br><br>Heals and shields you cast or receive are 10% stronger on targets below 40% health.<br><hr><br><scaleAD>Bonus healing</scaleAD>: @f1@<br><scaleAD>Bonus shielding</scaleAD>: @f2@<br><scaleAD>Total Heal and Shield power</scaleAD>: @f4@%",
-    "shortDesc": "Gain 5% Heal and Shield Power.<br><br>Heals and shields you cast or receive are 10% stronger on targets below 40% health.",
-    "longDesc": "Gain 5% Heal and Shield Power.<br><br>Heals and shields you cast or receive are 10% stronger on targets below 40% health.",
+    "tooltip": "Recebe 5% de Cura e Resistência do Escudo.<br><br>Curas e Escudos conjurados ou recebidos são 10% mais fortes em alvos com menos de 40% de Vida.<br><hr><br><scaleAD>Cura adicional</scaleAD>: @f1@<br><scaleAD>Escudo adicional</scaleAD>: @f2@<br><scaleAD>Total de cura e Resistência do Escudo</scaleAD>: @f4@%",
+    "shortDesc": "Recebe 5% de Cura e Resistência do Escudo.<br><br>Curas e Escudos conjurados ou recebidos são 10% mais fortes em alvos com menos de 40% de Vida.",
+    "longDesc": "Recebe 5% de Cura e Resistência do Escudo.<br><br>Curas e Escudos conjurados ou recebidos são 10% mais fortes em alvos com menos de 40% de Vida.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Revitalize/Revitalize.png",
     "endOfGameStatDescs": [
-      "Bonus Healing: @eogvar1@",
-      "Bonus Shielding: @eogvar2@"
+      "Cura adicional: @eogvar1@",
+      "Escudo adicional: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 10
@@ -175,25 +175,25 @@
   },
   {
     "id": 8360,
-    "name": "Unsealed Spellbook",
+    "name": "Livro de Feitiços Deslacrado",
     "majorChangePatchVersion": "8.9",
-    "tooltip": "Swap one of your equipped Summoner Spells to a new, single use Summoner Spell. Each unique Summoner Spell you swap to permanently decreases your swap cooldown by 25s (initial swap cooldown is at 5 mins). <br><br>Your first swap becomes available at 6 mins. <br><rules><br>Summoner Spells can only be swapped while out of combat. <br>After using a swapped Summoner Spell you must swap 3 more times before the first can be selected again.<br>Smite damage increases after two Summoner Spell swaps. </rules><hr><br>Unique Summoner Spells Used: @f4@/@f8@<br>Current Swap Cooldown: @f3@ seconds",
-    "shortDesc": "Swap Summoner Spells while out of combat. Swapping to unique Summoner Spells will increase the rate at which you can make future swaps.",
-    "longDesc": "Swap one of your equipped Summoner Spells to a new, single use Summoner Spell. Each unique Summoner Spell you swap to permanently decreases your swap cooldown by 25s (initial swap cooldown is at 5 mins). <br><br>Your first swap becomes available at 6 mins. <br><rules><br>Summoner Spells can only be swapped while out of combat. <br>After using a swapped Summoner Spell you must swap 3 more times before the first can be selected again.<br>Smite damage increases after two Summoner Spell swaps. </rules>",
-    "recommendationDescriptor": "Cast more Summoners",
+    "tooltip": "Troque um dos seus Feitiços de Invocador equipados por um novo de uso único. Cada troca de Feitiço de Invocador reduz permanentemente seu Tempo de Recarga em 25s (Tempo de Recarga inicial de 5min). <br><br>Sua primeira troca fica disponível em 6min. <br><rules><br>Feitiços de Invocador só podem ser trocados fora de combate. <br>Depois de usar um Feitiço de Invocador que já foi trocado, você precisa trocar mais 3 vezes antes que ele possa ser selecionado novamente.<br>O dano de Golpear aumenta após duas trocas de Feitiço de Invocador. </rules><hr><br>Feitiços de Invocador únicos usados: @f4@/@f8@<br>Tempo de Recarga atual da troca: @f3@s",
+    "shortDesc": "Troque Feitiços de Invocador enquanto estiver fora de combate. Trocar para Feitiços de Invocador únicos aumentará a frequência com que você poderá fazer trocas futuras.",
+    "longDesc": "Troque um dos seus Feitiços de Invocador equipados por um novo de uso único. Cada troca de Feitiço de Invocador reduz permanentemente seu Tempo de Recarga em 25s (Tempo de Recarga inicial de 5min). <br><br>Sua primeira troca fica disponível em 6min. <br><rules><br>Feitiços de Invocador só podem ser trocados fora de combate. <br>Depois de usar um Feitiço de Invocador que já foi trocado, você precisa trocar mais 3 vezes antes que ele possa ser selecionado novamente.<br>O dano de Golpear aumenta após duas trocas de Feitiço de Invocador. </rules>",
+    "recommendationDescriptor": "Conjurar mais Feitiços de Invocador",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png",
     "endOfGameStatDescs": [
-      "Summoner Spells swapped: @eogvar1@"
+      "Trocas de Feitiços de Invocador: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8004,
-    "name": "The Brazen Perfect",
+    "name": "O Orgulhoso",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathPrecision>Precision</pathPrecision> + <pathSorcery>Sorcery</pathSorcery><br>+0% Attack Speed<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathPrecision>Precision</pathPrecision> + <pathSorcery>Sorcery</pathSorcery> Set Bonus</pathBonus>",
-    "longDesc": "+0% Attack Speed<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathPrecision>Precisão</pathPrecision> + <pathSorcery>Feitiçaria</pathSorcery><br>+0% de Velocidade de Ataque<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathPrecision>Precisão</pathPrecision> + <pathSorcery>Feitiçaria</pathSorcery></pathBonus>",
+    "longDesc": "+0% de Velocidade de Ataque<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -201,26 +201,26 @@
   },
   {
     "id": 8128,
-    "name": "Dark Harvest",
+    "name": "Colheita Sombria",
     "majorChangePatchVersion": "8.23",
-    "tooltip": "Damaging a champion below 50% health deals <scaleAD>@f8@ physical damage</scaleAD> and harvests their soul, permanently increasing Dark Harvest's damage by <font color='#fc314e'>@f12@</font>.<br><br>Cooldown: 45s (resets to 1.5s on takedown)<br><hr><br>Souls harvested: <font color='#fc314e'>@f5@</font><br>Current damage: <scaleLevel>@f7@</scaleLevel> <font color='#fc314e'>(+@f6@)</font> <scaleAD>(+@f10@)</scaleAD> <scaleAP>(+@f11@)</scaleAP> <br>Total damage dealt: @f9@",
-    "shortDesc": "Damaging a low health champion inflicts <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> and harvests a soul from the victim.",
-    "longDesc": "Damaging a Champion below 50% health deals <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> and harvests their soul, permanently increasing Dark Harvest's damage by 5.<br><br>Dark Harvest damage: 20-80 (based on level) (+5 damage per soul) (+0.1 bonus AD) (+0.05 AP)<br>Cooldown: 45s (resets to 1.5s on takedown)",
-    "recommendationDescriptor": "Execute Enemies",
+    "tooltip": "Causar dano a um Campeão que esteja com menos de 50% de Vida causa <scaleAD>@f8@ de Dano Físico</scaleAD> e colhe a alma dele, aumentando permanentemente o dano de Colheita Sombria. <font color='#fc314e'>@f12@</font>.<br><br>Tempo de Recarga: 45s (redefine para 1.5s ao abater)<br><hr><br>Almas colhidas: <font color='#fc314e'>@f5@</font><br>Dano atual: <scaleLevel>@f7@</scaleLevel> <font color='#fc314e'>(+@f6@)</font> <scaleAD>(+@f10@)</scaleAD> <scaleAP>(+@f11@)</scaleAP> <br>Total de dano causado: @f9@",
+    "shortDesc": "Causar dano a um Campeão que está com pouca Vida inflige <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> e colhe a alma de sua vítima.",
+    "longDesc": "Causar dano a um Campeão que esteja com menos de 50% de Vida causa <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> e colhe a alma dele, aumentando permanentemente o dano de Colheita Sombria em 5.<br><br>Colheita Sombria Dano: 20-80 (com base no nível) (+5 de dano por alma) (+0.1 de DdA adicional) (+0.05 de PdH)<br>Tempo de Recarga: 45s (redefine para 1.5s ao abater)",
+    "recommendationDescriptor": "Executar inimigos",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
     "endOfGameStatDescs": [
-      "Total Damage Dealt: @eogvar1@",
-      "Total Souls Harvested: @eogvar2@"
+      "Total de dano causado: @eogvar1@",
+      "Total de almas colhidas: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8220,
-    "name": "The Calamity",
+    "name": "A Calamidade",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathSorcery>Sorcery</pathSorcery> + <pathDomination>Domination</pathDomination><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathSorcery>Sorcery</pathSorcery> + <pathDomination>Domination</pathDomination> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathSorcery>Feitiçaria</pathSorcery> + <pathDomination>Dominação</pathDomination><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathSorcery>Feitiçaria</pathSorcery> + <pathDomination>Dominação</pathDomination></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -228,11 +228,11 @@
   },
   {
     "id": 8016,
-    "name": "The Merciless Elite",
+    "name": "A Elite Impiedosa",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathPrecision>Precision</pathPrecision> + <pathDomination>Domination</pathDomination><br>+0% Attack Speed<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathPrecision>Precision</pathPrecision> + <pathDomination>Domination</pathDomination> Set Bonus</pathBonus>",
-    "longDesc": "+0% Attack Speed<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathPrecision>Precisão</pathPrecision> + <pathDomination>Dominação</pathDomination><br>+0% de Velocidade de Ataque<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathPrecision>Precisão</pathPrecision> + <pathDomination>Dominação</pathDomination></pathBonus>",
+    "longDesc": "+0% de Velocidade de Ataque<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -240,15 +240,15 @@
   },
   {
     "id": 8473,
-    "name": "Bone Plating",
+    "name": "Osso Revestido",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal <scaleLevel>@f2@</scaleLevel> less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s<br><hr><br>Total Damage Reduced: <scaleLevel>@f1@</scaleLevel>",
-    "shortDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 less damage.<br><br><br>Duration: 1.5s<br>Cooldown: 55s",
-    "longDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 less damage.<br><br><br>Duration: 1.5s<br>Cooldown: 55s",
+    "tooltip": "Após sofrer dano de um Campeão inimigo, os próximos 3 ataques ou habilidades que você sofrer desse inimigo causarão <scaleLevel>@f2@</scaleLevel> menos de dano.<br><br>Duração: 1.5s<br>Tempo de Recarga: 55s<br><hr><br>Total de dano reduzido: <scaleLevel>@f1@</scaleLevel>",
+    "shortDesc": "Após sofrer dano de um Campeão inimigo, os próximos 3 ataques ou habilidades que você sofrer dele causarão de 30 a 60 a menos de dano.<br><br><br>Duração: 1.5s<br>Tempo de Recarga: 55s",
+    "longDesc": "Após sofrer dano de um Campeão inimigo, os próximos 3 ataques ou habilidades que você sofrer dele causarão de 30 a 60 a menos de dano.<br><br><br>Duração: 1.5s<br>Tempo de Recarga: 55s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/BonePlating/BonePlating.png",
     "endOfGameStatDescs": [
-      "Total Damage Blocked: @eogvar1@"
+      "Total de dano bloqueado: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 10
@@ -256,11 +256,11 @@
   },
   {
     "id": 8339,
-    "name": "Celestial Body",
+    "name": "Corpo Celestial",
     "majorChangePatchVersion": "",
-    "tooltip": "+100 Health permanently<br>-10% damage to champions and monsters until 10 min",
-    "shortDesc": "+100 Health permanently<br>-10% damage to champions and monsters until 10 min",
-    "longDesc": "+100 Health permanently<br>-10% damage to champions and monsters until 10 min<br><br><hr><br><i>'The greatest legends live on in the stars.' <br>—Daphna the Dreamer</i>",
+    "tooltip": "+100 de Vida permanentemente<br>-10% de dano contra Campeões e monstros até o minuto 10",
+    "shortDesc": "+100 de Vida permanentemente<br>-10% de dano contra Campeões e monstros até o minuto 10",
+    "longDesc": "+100 de Vida permanentemente<br>-10% de dano contra Campeões e monstros até 10min<br><br><hr><br><i>''As maiores lendas continuam vivendo nas estrelas.'' <br>— Daphna, a Sonhadora</i>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/CelestialBody/CelestialBody.png",
     "endOfGameStatDescs": [
@@ -270,30 +270,30 @@
   },
   {
     "id": 8214,
-    "name": "Summon Aery",
+    "name": "Invocar Aery",
     "majorChangePatchVersion": "",
-    "tooltip": "Damaging enemy champions with basic attacks or abilities sends Aery to them, dealing <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>).<br><br>Empower or protecting allies with abilities sends Aery to them, shielding them for <font color='#FFFFFF'>@f8@</font> (+<scaleAP>@f9@</scaleAP>) (+<scaleAD>@f10@</scaleAD>).<br><br>Aery cannot be sent out again until she returns to you.<br><br><hr><br>Aery has attacked enemies <font color='#FFFFFF'>@f1@</font> times for a total of <font color='#FFFFFF'>@f3@</font> damage.<br>Aery has helped allies <font color='#FFFFFF'>@f2@</font> times, shielding a total of <font color='#FFFFFF'>@f4@</font> damage.",
-    "shortDesc": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies.",
-    "longDesc": "Damaging enemy champions with basic attacks or abilities sends Aery to them, dealing 10 - 50 based on level (+<scaleAP>0.05 AP</scaleAP>) (+<scaleAD>0.1 bonus AD</scaleAD>).<br><br>Empower or protecting allies with abilities sends Aery to them, shielding them for 30 - 100 based on level (+<scaleAP>0.05 AP</scaleAP>) (+<scaleAD>0.1 bonus AD</scaleAD>).<br><br>Aery cannot be sent out again until she returns to you.",
-    "recommendationDescriptor": "Poke Damage",
+    "tooltip": "Causar dano a Campeões inimigos com ataques básicos ou habilidades envia Aery até eles, causando <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>).<br><br>Fortalecer ou proteger aliados com habilidades envia Aery até eles, concedendo um escudo de <font color='#FFFFFF'>@f8@</font> (+<scaleAP>@f9@</scaleAP>) (+<scaleAD>@f10@</scaleAD>).<br><br>Aery não é enviada novamente até que ela retorne a você.<br><br><hr><br>Aery já atacou inimigos <font color='#FFFFFF'>@f1@</font> vezes e causou um total de <font color='#FFFFFF'>@f3@</font> de dano.<br>Aery ajudou aliados <font color='#FFFFFF'>@f2@</font> vezes, protegendo contra um total de <font color='#FFFFFF'>@f4@</font> de dano.",
+    "shortDesc": "Seus ataques e habilidades enviam Aery até um alvo, causando dano a inimigos ou protegendo aliados com um escudo.",
+    "longDesc": "Causar dano a Campeões inimigos com ataques básicos ou habilidades envia Aery até eles, causando 10 - 50 de dano com base no nível (+<scaleAP>0.05 de PdH</scaleAP>) (+<scaleAD>0.1 de DdA adicional</scaleAD>).<br><br>Fortalecer ou proteger aliados com habilidades envia Aery até eles, concedendo um escudo de 30 - 100 com base no nível (+<scaleAP>0.05 de PdH</scaleAP>) (+<scaleAD>0.1 de DdA adicional</scaleAD>).<br><br>Aery não é enviada novamente até que ela retorne a você.",
+    "recommendationDescriptor": "Dano de poke",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/SummonAery/SummonAery.png",
     "endOfGameStatDescs": [
-      "Damage Dealt: @eogvar1@",
-      "Damage Shielded: @eogvar2@"
+      "Dano causado: @eogvar1@",
+      "Dano protegido: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8237,
-    "name": "Scorch",
+    "name": "Chamuscar",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "Your next damaging ability hit sets champions on fire dealing 20 - 40 bonus magic damage based on level after 1s.<br><br>Cooldown: 10s<br><hr><br>Current Damage: @f2@<br>Total Damage Dealt: @f1@",
-    "shortDesc": "Your first damaging ability hit every 10s burns champions.",
-    "longDesc": "Your next damaging ability hit sets champions on fire dealing 20 - 40 bonus magic damage based on level after 1s.<br><br>Cooldown: 10s",
+    "tooltip": "Sua próxima habilidade de dano a atingir o alvo incinera Campeões, causando de 20 a 40 de Dano Mágico adicional, com base no nível, após 1s.<br><br>Tempo de Recarga: 10s<br><hr><br>Dano atual: @f2@<br>Total de dano causado: @f1@",
+    "shortDesc": "Sua primeira habilidade de dano a atingir o alvo a cada 10s incinerará Campeões.",
+    "longDesc": "Sua próxima habilidade de dano a atingir o alvo incinera Campeões, causando de 20 a 40 de Dano Mágico adicional, com base no nível, após 1s.<br><br>Tempo de Recarga: 10s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Scorch/Scorch.png",
     "endOfGameStatDescs": [
-      "Total Bonus Damage: @eogvar1@"
+      "Total de dano adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 7,
@@ -302,15 +302,15 @@
   },
   {
     "id": 8139,
-    "name": "Taste of Blood",
+    "name": "Gosto de Sangue",
     "majorChangePatchVersion": "",
-    "tooltip": "Heal when you damage an enemy champion.<br><br>Healing: <font color='#ffffff'>@f2@</font> (+<scaleAD>@f3@</scaleAD>) (+<scaleAP>@f4@</scaleAP>)<br><br>Cooldown: 20s<br><hr><br>Total Healing: @f1@",
-    "shortDesc": "Heal when you damage an enemy champion.",
-    "longDesc": "Heal when you damage an enemy champion.<br><br>Healing: 16-40 (+0.1 bonus AD, +0.05 AP) health (based on level)<br><br>Cooldown: 20s",
+    "tooltip": "Cura ao causar dano a um Campeão inimigo.<br><br>Cura: <font color='#ffffff'> @f2@</font>(+<scaleAD>@f3@</scaleAD>) (+<scaleAP>@f4@</scaleAP>)<br><br>Tempo de Recarga: 20s<br><hr><br>Total de cura: @f1@",
+    "shortDesc": "Cura ao causar dano a um Campeão inimigo.",
+    "longDesc": "Cura ao causar dano a um Campeão inimigo.<br><br>Cura: 16-40 (+0.1 de DdA adicional, +0.05 de PdH) de Vida (com base no nível).<br><br>Tempo de Recarga: 20s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
     "endOfGameStatDescs": [
-      "Total Healing: @eogvar1@"
+      "Total de cura: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 10
@@ -318,29 +318,29 @@
   },
   {
     "id": 8008,
-    "name": "Lethal Tempo",
+    "name": "Ritmo Fatal",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain %i:scaleAS% (%i:meleeActive% @ASMelee@ || %i:rangedActive% @ASRanged@) Attack Speed for 6 seconds when you attack an enemy champion. This effect stacks up to 6 times.<br><br>While this effect is fully stacked, your Attack Speed can exceed 2.5 and you also gain 50 Attack Range.<br><hr><br>Capstone Uptime: @f1@s",
-    "shortDesc": "Gain Attack Speed when attacking an enemy champion, stacking up to 6 times. At max stacks, gain Attack Range and remove your Attack Speed limit.",
-    "longDesc": "Gain [54% - 81%] (Melee) or [21% - 48%] (Ranged) Attack Speed for 6 seconds when you attack an enemy champion. This effect stacks up to 6 times.<br><br>While this effect fully stacked, your Attack Speed can exceed 2.5 and you gain 50 Attack Range.",
-    "recommendationDescriptor": "Ramping Attack Speed",
+    "tooltip": "Recebe %i:scaleAS% (%i:meleeActive% @ASMelee@ || %i:rangedActive% @ASRanged@) de Velocidade de Ataque por 6s ao atacar um Campeão inimigo. Esse efeito acumula até 6 vezes.<br><br>Enquanto esse efeito estiver com o máximo de acúmulos, sua Velocidade de Ataque poderá ultrapassar 2,5 e você receberá 50 de Alcance de Ataque.<br><hr><br>Tempo com Velocidade de Ataque máxima: @f1@s",
+    "shortDesc": "Recebe Velocidade de Ataque ao atacar um Campeão inimigo, acumulando até 6 vezes. Com o máximo de acúmulos, recebe Alcance de Ataque e remove seu limite de Velocidade de Ataque.",
+    "longDesc": "Recebe [54% - 81%] (corpo a corpo) | [21% - 48%] (à distância) de Velocidade de Ataque por 6s ao atacar um Campeão inimigo. Esse efeito acumula até 6 vezes.<br><br>Enquanto esse efeito estiver com o máximo de acúmulos, sua Velocidade de Ataque poderá ultrapassar 2,5 e você receberá 50 de Alcance de Ataque.",
+    "recommendationDescriptor": "Velocidade de Ataque crescente",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
     "endOfGameStatDescs": [
-      "Max Attack Speed Uptime: @eogvar1@:@eogvar2@"
+      "Tempo com a Velocidade de Ataque máxima: @eogvar1@:@eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 9105,
-    "name": "Legend: Tenacity",
+    "name": "Lenda: Tenacidade",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain 5% tenacity plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total tenacity granted: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent <b>Tenacity</b>. ",
-    "longDesc": "Gain 5% tenacity plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+    "tooltip": "Recebe 5% de Tenacidade mais um adicional de 1.5% para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 10 acúmulos</statGood>).<br><br>Avance nos acúmulos de <i>Lenda</i> a cada abate de Campeão, abate de monstro épico, abate de monstro grande e abate de tropas.<br><hr><br>Total de Tenacidade concedida: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ de 10</statGood>)<br>Progresso para o próximo acúmulo: @f2@%",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> em inimigos concedem <b>Tenacidade</b> permanente. ",
+    "longDesc": "Recebe 5% de Tenacidade mais um adicional de 1.5% para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 10 acúmulos</statGood>).<br><br>Avance nos acúmulos de <i>Lenda</i> a cada abate de Campeão, abate de monstro épico, abate de monstro grande e abate de tropas.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendTenacity/LegendTenacity.png",
     "endOfGameStatDescs": [
-      "Time Completed: @eogvar1@:@eogvar2@"
+      "Tempo concluído: @eogvar1@:@eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 4,
@@ -349,29 +349,29 @@
   },
   {
     "id": 8010,
-    "name": "Conqueror",
+    "name": "Conquistador",
     "majorChangePatchVersion": "9.4",
-    "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@",
-    "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
-    "longDesc": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining 1.8-4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).",
-    "recommendationDescriptor": "Bonus Damage, Sustain",
+    "tooltip": "Ataques básicos ou habilidades que causam dano a um Campeão inimigo concedem 2 acúmulos de Conquistador por 5s, recebendo <scaleLevel>@f5.1@</scaleLevel> <scaleAD>de Dano de Ataque</scaleAD> por acúmulo. Acumula-se até 12 vezes. Campeões de ataque à distância recebem somente 1 acúmulo por ataque básico.<br><br>Ao chegar no máximo de acúmulos, cura 8% do dano que você causa a Campeões (5% para Campeões de ataque à distância).<br><br>Total de Cura: @f1@",
+    "shortDesc": "Ganha acúmulos de Força Adaptativa ao atacar Campeões inimigos. Após alcançar 12 acúmulos, cura uma parte do dano causado a Campeões.",
+    "longDesc": "Ataques básicos ou habilidades que causam dano a um Campeão inimigo concedem 2 acúmulos de Conquistador por 5s, recebendo 1.8 - 4 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'> de <font color='#48C4B7'>Força Adaptativa</font></lol-uikit-tooltipped-keyword> por acúmulo. Acumula-se até 12 vezes. Campeões de ataque à distância recebem somente 1 acúmulo por ataque básico.<br><br>Ao chegar no máximo de acúmulos, cura 8% do dano que você causa a Campeões (5% para Campeões de ataque à distância).",
+    "recommendationDescriptor": "Dano adicional, sustentação",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Conqueror/Conqueror.png",
     "endOfGameStatDescs": [
-      "Total healing: @eogvar1@"
+      "Total de Cura: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8106,
-    "name": "Ultimate Hunter",
+    "name": "Caça Suprema",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><hr><br><u>No Claimable Bounties</u>",
-    "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
-    "longDesc": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+    "tooltip": "Sua ultimate recebe <attention>6</attention> de Aceleração de Habilidade, além de <attention>5</attention> de Aceleração de Habilidade adicional por acúmulo de <i>Caçador de Recompensas</i>.<br><br>Acúmulos de <i>Caçador de Recompensas</i> são recebidos na primeira vez que você conseguir uma eliminação em cada Campeão inimigo.<br><hr><br><u>Nenhuma recompensa a resgatar</u>",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem Redução de Tempo de Recarga permanente para a ultimate. ",
+    "longDesc": "Sua ultimate recebe <attention>6</attention> de Aceleração de Habilidade, além de <attention>5</attention> de Aceleração de Habilidade adicional por acúmulo de <i>Caçador de Recompensas</i>.<br><br>Acúmulos de <i>Caçador de Recompensas</i> são recebidos na primeira vez que você conseguir uma eliminação em cada Campeão inimigo.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
     "endOfGameStatDescs": [
-      "Total Stacks: @eogvar1@"
+      "Total de acúmulos: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kCooldown": 10
@@ -379,15 +379,15 @@
   },
   {
     "id": 8017,
-    "name": "Cut Down",
+    "name": "Dilacerar",
     "majorChangePatchVersion": "",
-    "tooltip": "Deal 5% to 15% more damage to champions, based on how much more max health they have than you.<br><br><rules>Bonus damage scales up linearly against enemies with 10% to 100% more max health than you.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>",
-    "shortDesc": "Deal more damage to champions with more max health than you.",
-    "longDesc": "Deal 5% to 15% more damage to champions, based on how much more max health they have than you.<br><br><rules>Bonus damage scales up linearly against enemies with 10% to 100% more max health than you.</rules>",
+    "tooltip": "Causa 5% a 15% de Dano a mais em Campeões, com base em quanto de Vida máxima ele possui a mais do que você.<br><br><rules>Dano adicional escala linearmente contra inimigos com 10% a 100% de Vida máxima a mais que você.</rules><br><hr><br>Total de dano adicional: <scaleAD>@f1@</scaleAD>",
+    "shortDesc": "Causa mais dano a Campeões que tenham mais Vida máxima do que você.",
+    "longDesc": "Causa 5% a 15% de Dano a mais em Campeões, com base em quanto de Vida máxima ele possui a mais do que você.<br><br><rules>Dano adicional escala linearmente contra inimigos com 10% a 100% de Vida máxima a mais que você.</rules>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/CutDown/CutDown.png",
     "endOfGameStatDescs": [
-      "Total Bonus Damage: @eogvar1@"
+      "Total de dano adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 1,
@@ -396,15 +396,15 @@
   },
   {
     "id": 8224,
-    "name": "Nullifying Orb",
+    "name": "Orbe Anulador",
     "majorChangePatchVersion": "",
-    "tooltip": "When you take magic damage that would reduce your Health below 30%, gain a shield that absorbs @NullifyingShieldSize@ magic damage for 4s.<br><br>Cooldown: 60s<br><hr><br>Total Magic Damage Blocked: @f1@",
-    "shortDesc": "Gain a magic damage shield when taken to low health by magic damage.",
-    "longDesc": "When you take magic damage that would reduce your health below 30%, first gain a shield that absorbs 35 to 110 (+14% bonus attack damage) + (9% ability power) magic damage based on level for 4s.<br><br>Cooldown: 60s",
+    "tooltip": "Ao sofrer Dano Mágico que deixaria sua Vida inferior a 30%, recebe um Escudo que absorve @NullifyingShieldSize@ de Dano Mágico por 4s.<br><br>Tempo de Recarga: 60s<br><hr><br>Dano Mágico total bloqueado: @f1@",
+    "shortDesc": "Recebe um escudo de Dano Mágico quando ficar com pouca Vida ao ser atingido por Dano Mágico.",
+    "longDesc": "Ao sofrer Dano Mágico que deixaria sua Vida inferior a 30%, recebe um Escudo que absorve 35 - 110 (+14% de Dano de Ataque adicional) + 9% de Poder de Habilidade como Dano Mágico com base no nível por 4s.<br><br>Tempo de Recarga: 60s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/NullifyingOrb/Pokeshield.png",
     "endOfGameStatDescs": [
-      "Total shield granted: @eogvar1@"
+      "Total de escudos concedidos: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 10
@@ -412,15 +412,15 @@
   },
   {
     "id": 8210,
-    "name": "Transcendence",
+    "name": "Transcendência",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain bonuses upon reaching the following levels:<br>Level 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 11: On Champion takedown, reduce the remaining cooldown of basic abilities by 20%.<br><br><hr><br>Bonus Ability Haste: +@f4*100@<br>Seconds Refunded: @f3@",
-    "shortDesc": "Gain bonuses upon reaching the following levels:<br>Level 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 11: On Champion takedown, reduce the remaining cooldown of basic abilities by 20%.",
-    "longDesc": "Gain bonuses upon reaching the following levels:<br>Level 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 11: On Champion takedown, reduce the remaining cooldown of basic abilities by 20%.<br>",
+    "tooltip": "Recebe efeitos adicionais ao atingir os seguintes níveis:<br>Nível 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 11: ao eliminar um Campeão inimigo, reduz o Tempo de Recarga restante das habilidades básicas em 20%.<br><br><hr><br>Aceleração de Habilidade adicional: +@f4*100@<br>Segundos restituídos: @f3@",
+    "shortDesc": "Recebe efeitos adicionais ao atingir os seguintes níveis:<br>Nível 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 11: ao eliminar um Campeão inimigo, reduz o Tempo de Recarga restante das habilidades básicas em 20%.",
+    "longDesc": "Recebe efeitos adicionais ao atingir os seguintes níveis:<br>Nível 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> <br>Nível 11: ao eliminar um Campeão inimigo, reduz o Tempo de Recarga restante das habilidades básicas em 20%.<br>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Transcendence/Transcendence.png",
     "endOfGameStatDescs": [
-      "Seconds refunded: @eogvar1@"
+      "Segundos restituídos: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kCooldown": 10
@@ -428,41 +428,41 @@
   },
   {
     "id": 8005,
-    "name": "Press the Attack",
+    "name": "Pressione o Ataque",
     "majorChangePatchVersion": "",
-    "tooltip": "Hitting an enemy champion with 3 consecutive basic attacks deals <scaleLevel>@f4@</scaleLevel> bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by <scaleLevel>@f7@%</scaleLevel> from all sources for 6s.<br><hr><br>Bonus Damage Dealt: <scaleAD>@f2@</scaleAD><br>Total Exposure Damage: <scaleAD>@f3@</scaleAD>",
-    "shortDesc": "Hitting an enemy champion 3 consecutive times makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for 6s.",
-    "longDesc": "Hitting an enemy champion with 3 consecutive basic attacks deals 40 - 180 bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by 8% from all sources for 6s.",
-    "recommendationDescriptor": "Single Target Damage",
+    "tooltip": "Acertar um Campeão inimigo com 3 ataques básicos consecutivos causa <scaleLevel>@f4@</scaleLevel> de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional (com base no nível) e o deixa vulnerável, aumentando o dano recebido de todas as fontes em <scaleLevel>@f7@%</scaleLevel> por 6s.<br><hr><br>Dano adicional causado: <scaleAD>@f2@</scaleAD><br>Total de dano devido à exposição: <scaleAD>@f3@</scaleAD>",
+    "shortDesc": "Atingir um Campeão 3 vezes consecutivas o deixa vulnerável, causando dano adicional e fazendo com que ele receba mais dano de todas as fontes por 6s.",
+    "longDesc": "Acertar um Campeão inimigo com 3 ataques básicos consecutivos causa 40 - 180 de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional (com base no nível) e os torna vulneráveis, aumentando em 8% o dano sofrido de todas as fontes por 6s.",
+    "recommendationDescriptor": "Dano a um único alvo",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
     "endOfGameStatDescs": [
-      "Total Damage: @eogvar1@",
-      "Bonus Damage: @eogvar2@",
-      "Expose Damage: @eogvar3@"
+      "Total de dano: @eogvar1@",
+      "Dano adicional: @eogvar2@",
+      "Dano por exposição: @eogvar3@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8435,
-    "name": "Mirror Shell",
+    "name": "Casco Duplicado",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain +6 Magic Resist. <br><br>Heal effects from consumables, heals for at least 20 health and shields increase your Magic Resist by 5% for 3s.",
-    "shortDesc": "Gain +6 Magic Resist. <br>Heals, including consumables, increase your Magic Resist by 5% temporarily.<br>",
-    "longDesc": "Gain +6 Magic Resist. <br><br>Heal effects from consumables, heals for at least 20 health and shields increase your Magic Resist by 5% for 3s.",
+    "tooltip": "Recebe +6 de Resistência Mágica. <br><br>Efeitos de cura usando consumíveis curam em pelo menos 20 de Vida e escudos aumentam sua Resistência Mágica em 5% por 3s.",
+    "shortDesc": "Recebe +6 de Resistência Mágica. <br>Curas, incluindo consumíveis, aumentam sua Resistência Mágica em 5% temporariamente.<br>",
+    "longDesc": "Recebe +6 de Resistência Mágica. <br><br>Efeitos de cura usando consumíveis curam em pelo menos 20 de Vida e escudos aumentam sua Resistência Mágica em 5% por 3s.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/MirrorShell/MirrorShell.png",
     "endOfGameStatDescs": [
-      "Bonus Magic Resist: @eogvar1@"
+      "Resistência Mágica adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8115,
-    "name": "The Aether Blade",
+    "name": "A Lâmina Etérea",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathDomination>Domination</pathDomination> + <pathSorcery>Sorcery</pathSorcery><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathDomination>Domination</pathDomination> + <pathSorcery>Sorcery</pathSorcery> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathDomination>Dominação</pathDomination> + <pathSorcery>Feitiçaria</pathSorcery><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathDomination>Dominação</pathDomination> + <pathSorcery>Feitiçaria</pathSorcery></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -470,32 +470,32 @@
   },
   {
     "id": 8359,
-    "name": "Kleptomancy",
+    "name": "Cleptomancia",
     "majorChangePatchVersion": "8.23",
-    "tooltip": "After using an ability, each of your next 2 attacks can grant 5 gold... or something nicer.<br><br>Only attacks against champions grant you a reward.<br><hr><br>Gold Gained: @f1@<br>Items Looted: @f3@",
-    "shortDesc": "Loot gold and items from enemy champions by casting spells and auto attacking them.",
-    "longDesc": "After using an ability, each of your next 2 attacks can grant 5 gold... or something nicer.<br><br>Only attacks against champions grant you a reward.",
+    "tooltip": "Após usar uma habilidade, cada um de seus próximos 2 ataques poderá conceder 5 de ouro... Ou coisa melhor.<br><br>Somente ataques contra Campeões concedem recompensa.<br><hr><br>Ouro obtido: @f1@<br>Itens obtidos: @f3@",
+    "shortDesc": "Consiga ouro e itens de Campeões inimigos infligindo ataques básicos e habilidades.",
+    "longDesc": "Após usar uma habilidade, cada um de seus próximos 2 ataques poderá conceder 5 de ouro... Ou coisa melhor.<br><br>Somente ataques contra Campeões concedem recompensa.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/Kleptomancy/Kleptomancy.png",
     "endOfGameStatDescs": [
-      "Gold Granted: @eogvar1@",
-      "Items Looted: @eogvar2@"
+      "Ouro concedido: @eogvar1@",
+      "Itens obtidos: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8352,
-    "name": "Time Warp Tonic",
+    "name": "Tônico de Distorção no Tempo",
     "majorChangePatchVersion": "8.22",
-    "tooltip": "Consuming a potion or biscuit grants 30% of its health or mana restoration immediately. In addition, gain <speed>2% Move Speed</speed> while under their effects.<br><br><br><hr><br>Time Spent hasted: @f1@s<br>Total health instantly restored: @f2@<br>Total mana instantly restored: @f3@",
-    "shortDesc": "Potions and biscuits grant some restoration immediately. Gain <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>  while under their effects.",
-    "longDesc": "Consuming a potion or biscuit grants 30% of its health or mana restoration immediately. In addition, gain <speed>2% Move Speed</speed> while under their effects.<br><br>",
+    "tooltip": "Consumir uma poção ou biscoito concede imediatamente 30% da restauração de Vida ou Mana do item. Além disso, concede <speed>2% de Velocidade de Movimento</speed> durante o efeito da poção ou biscoito.<br><br><br><hr><br>Tempo enquanto acelerado: @f1@s<br>Total de Vida instantaneamente restaurada: @f2@<br>Total de Mana instantaneamente restaurada: @f3@",
+    "shortDesc": "Poções e biscoitos concedem um pouco de restauração imediatamente. Recebe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword> enquanto sob seus efeitos.",
+    "longDesc": "Consumir uma poção ou biscoito concede imediatamente 30% da restauração de Vida ou Mana do item. Além disso, concede <speed>2% de Velocidade de Movimento</speed> durante o efeito da poção ou biscoito.<br><br>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png",
     "endOfGameStatDescs": [
-      "Time Spent Hasted: @eogvar1@",
-      "Total Immediate Health Restored: @eogvar2@",
-      "Total Immediate Mana Restored: @eogvar3@"
+      "Tempo enquanto acelerado: @eogvar1@",
+      "Total de Vida imediatamente restaurada: @eogvar2@",
+      "Total de Mana imediatamente restaurada: @eogvar3@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 5,
@@ -504,11 +504,11 @@
   },
   {
     "id": 5003,
-    "name": "Magic Resist",
+    "name": "Resistência Mágica",
     "majorChangePatchVersion": "",
-    "tooltip": "+8 Magic Resist",
-    "shortDesc": "+8 Magic Resist",
-    "longDesc": "+8 Magic Resist",
+    "tooltip": "+8 de Resistência Mágica",
+    "shortDesc": "+8 de Resistência Mágica",
+    "longDesc": "+8 de Resistência Mágica",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsMagicResIcon.png",
     "endOfGameStatDescs": [],
@@ -516,16 +516,16 @@
   },
   {
     "id": 8135,
-    "name": "Treasure Hunter",
+    "name": "Caçador de Tesouros",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain an additional <gold>50 gold</gold> the next time you collect a <i>Bounty Hunter</i> stack. Increase the gold gained by <gold>20 gold</gold> for each <i>Bounty Hunter</i> stack, up to <gold>130 gold</gold>.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Bounty Available: <gold>@f15@ gold</gold><br>Bonus Gold Collected: <gold>@f3@ gold</gold><br><hr><br><u>No Claimable Bounties</u>",
-    "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant additional gold the first time they are collected. ",
-    "longDesc": "Gain an additional <gold>50 gold</gold> the next time you collect a <i>Bounty Hunter</i> stack. Increase the gold gained by <gold>20 gold</gold> for each <i>Bounty Hunter</i> stack, up to <gold>130 gold</gold>.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+    "tooltip": "Receba <gold>50 de ouro</gold> adicional na próxima vez que coletar um acúmulo de <i>Caçador de Recompensas</i>. Aumente o ouro recebido em <gold>20 de ouro</gold> para cada acúmulo de <i>Caçador de Recompensas</i>, até <gold>130 de ouro</gold>.<br><br>Acúmulos de <i>Caçador de Recompensas</i> serão recebidos na primeira vez que você eliminar cada Campeão inimigo.<br><br>Recompensa disponível: <gold>@f15@ de ouro</gold><br>Ouro adicional coletado: <gold>@f3@ de ouro</gold><br><hr><br><u>Nenhuma recompensa a resgatar</u>",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Eliminações</lol-uikit-tooltipped-keyword> <b>únicas</b> concedem ouro adicional na primeira vez que são coletadas. ",
+    "longDesc": "Receba <gold>50 de ouro</gold> adicional na próxima vez que coletar um acúmulo de <i>Caçador de Recompensas</i>. Aumente o ouro recebido em <gold>20 de ouro</gold> para cada acúmulo de <i>Caçador de Recompensas</i>, até <gold>130 de ouro</gold>.<br><br>Acúmulos de <i>Caçador de Recompensas</i> serão recebidos na primeira vez que você eliminar cada Campeão inimigo.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
     "endOfGameStatDescs": [
-      "Gold Collected: @eogvar1@",
-      "Total Stacks: @eogvar2@"
+      "Ouro coletado: @eogvar1@",
+      "Total de acúmulos: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kGold": 15
@@ -533,16 +533,16 @@
   },
   {
     "id": 8120,
-    "name": "Ghost Poro",
+    "name": "Poro Fantasma",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "When your wards expire, they leave behind a Ghost Poro, which grants vision for 90s. Nearby enemy champions scare the Ghost Poro away.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Ghost Poro spawned and when your Ghost Poro spots an enemy champion up to 10 stacks. <br><br>After gaining 10 stacks, additionally gain 10 adaptive force.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Poros Spawned: @f3@<br>Enemies Spotted: @f5@",
-    "shortDesc": "When your wards expire, they leave behind a Ghost Poro. The Ghost Poro grants vision until discovered. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each Ghost Poro and when your Ghost Poro spots an enemy champion, plus bonus upon completion.",
-    "longDesc": "When your wards expire, they leave behind a Ghost Poro, which grants vision for 90s. Nearby enemy champions scare the Ghost Poro away.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Ghost Poro spawned and when your Ghost Poro spots an enemy champion up to 10 stacks. <br><br>After gaining 10 stacks, additionally gain 10 adaptive force.",
+    "tooltip": "Quando suas sentinelas expiram, elas deixam para trás um Poro Fantasma, que concede visão por 90s. Campeões inimigos próximos assustam o Poro Fantasma para longe.<br><br>Você recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade por cada Poro Fantasma invocado e quando ele avista um Campeão inimigo, em até 10 acúmulos. <br><br>Após 10 acúmulos, você recebe mais 10 de Força Adaptativa.<br><hr><br>Atributos recebidos: <scaleAD>+@f2@ de Dano de Ataque</scaleAD><br>Poros invocados: @f3@<br>Inimigos avistados: @f5@",
+    "shortDesc": "Quando suas sentinelas expiram, elas deixam para trás um Poro Fantasma, que concede visão até ser descoberto. Você recebe permanentemente DdA ou PdH <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptativos</lol-uikit-tooltipped-keyword> por cada Poro Fantasma e quando ele avistar um Campeão inimigo, além de adicionais ao completar a coleção.",
+    "longDesc": "Quando suas sentinelas expiram, elas deixam para trás um Poro Fantasma, que concede visão por 90s. Campeões inimigos próximos assustam o Poro Fantasma para longe.<br><br>Você recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade por cada Poro Fantasma invocado e quando ele avista um Campeão inimigo, em até 10 acúmulos. <br><br>Após 10 acúmulos, você recebe mais 10 de Força Adaptativa.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/GhostPoro/GhostPoro.png",
     "endOfGameStatDescs": [
-      "Ghost Poros Spawned: @eogvar3@",
-      "Enemies Spotted: @eogvar1@"
+      "Poros Fantasma invocados: @eogvar3@",
+      "Inimigos avistados: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -550,16 +550,16 @@
   },
   {
     "id": 8134,
-    "name": "Ingenious Hunter",
+    "name": "Caça Ardilosa",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain <attention>20</attention> <b>Item Haste</b> plus an additional <attention>6</attention> <b>Item Haste</b> per <i>Bounty Hunter</i> stack (includes Trinkets).<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br><rules>Item Haste affects all items with cooldowns. </rules><br><br>Total item activations (including Trinkets): @f3@<br><hr><br><u>No Claimable Bounties</u>",
-    "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent Item <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Haste</lol-uikit-tooltipped-keyword> (includes Trinkets).",
-    "longDesc": "Gain <attention>20</attention> <b>Item Haste</b> plus an additional <attention>6</attention> <b>Item Haste</b> per <i>Bounty Hunter</i> stack (includes Trinkets).<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br><rules>Item Haste affects all items with cooldowns. </rules>",
+    "tooltip": "Recebe <attention>20</attention> <b>de Aceleração de Item</b> e um adicional de <attention>6</attention> <b>de Aceleração de Item</b> por acúmulo de <i>Caçador de Recompensas</i> (inclui Amuletos).<br><br>Acúmulos de <i>Caçador de Recompensas</i> são recebidos na primeira vez que você eliminar cada Campeão inimigo.<br><br><rules>Aceleração de Item afeta todos os itens com Tempo de Recarga.</rules><br><br>Total de ativações de itens (incluindo Amuletos): @f3@<br><hr><br><u>Nenhuma recompensa a resgatar</u>",
+    "shortDesc": "Eliminações <b>únicas</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'></lol-uikit-tooltipped-keyword> concedem <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Aceleração</lol-uikit-tooltipped-keyword> de Item permanente (inclui Amuletos).",
+    "longDesc": "Recebe <attention>20</attention> <b>de Aceleração de Item</b> e um adicional de <attention>6</attention> <b>de Aceleração de Item</b> por acúmulo de <i>Caçador de Recompensas</i> (inclui Amuletos).<br><br>Acúmulos de <i>Caçador de Recompensas</i> são recebidos na primeira vez que você eliminar cada Campeão inimigo.<br><br><rules>Aceleração de Item afeta todos os itens com Tempo de Recarga.</rules>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/IngeniousHunter/IngeniousHunter.png",
     "endOfGameStatDescs": [
-      "Total Stacks: @eogvar2@",
-      "Total Item Activations (Including Trinkets): @eogvar1@"
+      "Total de acúmulos: @eogvar2@",
+      "Total de ativações de itens (incluindo Amuletos): @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kCooldown": 8,
@@ -568,30 +568,30 @@
   },
   {
     "id": 8351,
-    "name": "Glacial Augment",
+    "name": "Aprimoramento Glacial",
     "majorChangePatchVersion": "",
-    "tooltip": "Immobilizing an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby champions, creating frozen zones for 3 (+ 100% of the immobilizing effect's duration) seconds that slow enemies and reduce their damage by 15% against your allies (not including yourself). <br><br>Cooldown: 25s<br>Slow Amount: @f3@% = 20% <healing>+@f4@% (%i:scaleHealShield%)</healing> <scaleAP>+@f5@% (%i:scaleAP%)</scaleAP> <scaleAD>+@f6@% (%i:scaleAD%)</scaleAD> <br>Duration Enemy Champs Slowed: @f1@s<br>Damage Reduced: @f2@",
-    "shortDesc": "Immobilizing an enemy champion will cause 3 glacial rays that slow nearby enemies and reduce their damage to your allies.",
-    "longDesc": "Immobilizing an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby champions, creating frozen zones for 3 (+ 100% of the immobilizing effect's duration) seconds that slow enemies for 20% (+9% per 10% Heal and Shield Power) (+6% per 100 Ability Power) (+7% per 100 bonus Attack Damage) and reduce their damage by 15% against your allies (not including yourself). <br><br>Cooldown: 25s",
-    "recommendationDescriptor": "Slow Enemies",
+    "tooltip": "Imobilizar um Campeão inimigo fará com que 3 raios glaciais emanem dele em direção a você e a outros Campeões próximos, criando por 3s (+ 100% da duração do efeito imobilizador) zonas congeladas que causam Lentidão a inimigos e reduzem o dano deles em 15% contra seus aliados (exceto você). <br><br>Tempo de Recarga: 25s<br>Lentidão: @f3@% = 20% <healing>+@f4@% (%i:scaleHealShield%)</healing> <scaleAP>+@f5@% (%i:scaleAP%)</scaleAP> <scaleAD>+@f6@% (%i:scaleAD%)</scaleAD> <br>Duração da Lentidão em Campeões inimigos: @f1@s<br>Dano reduzido: @f2@",
+    "shortDesc": "Imobilizar um Campeão inimigo invocará 3 raios glaciais que causam Lentidão a inimigos próximos e reduzem o dano deles contra seus aliados.",
+    "longDesc": "Imobilizar um Campeão inimigo fará com que 3 raios glaciais emanem dele em direção a você e a outros Campeões próximos, criando por 3s (+ 100% da duração do efeito imobilizador) zonas congeladas que causam 20% (+9% a cada 10% de cura e Resistência do Escudo) (+6% a cada 100 de Poder de Habilidade) (+7% a cada 100 de Dano de Ataque adicional) de Lentidão a inimigos e reduzem o dano deles em 15% contra seus aliados (exceto você). <br><br>Tempo de Recarga: 25s",
+    "recommendationDescriptor": "Lentidão a inimigos",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png",
     "endOfGameStatDescs": [
-      "Duration Enemy Champs Slowed: @eogvar1@s",
-      "Damage Reduced: @eogvar2@"
+      "Duração da Lentidão em Campeões inimigos: @eogvar1@s",
+      "Dano reduzido: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8242,
-    "name": "Unflinching",
+    "name": "Inabalável",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain 5% Tenacity and 5% Slow Resist. These values increase by up to an additional 20% Tenacity and 20% Slow Resist based on missing health. Maximum value achieved at 30% health. <br>Current Bonus Tenacity: @f1@%<br>Current Bonus Slow Resist: @f2@%<br><br>Total combat time with increased resistances: @f6@ seconds.",
-    "shortDesc": "Gain a small amount of tenacity that increases with missing health. ",
-    "longDesc": "Gain 5% Tenacity and 5% Slow Resist. These values increase by up to an additional 20% Tenacity and 20% Slow Resist based on missing health. Maximum value achieved at 30% health. ",
+    "tooltip": "Recebe 5% de Tenacidade e 5% de resistência a redução de velocidade. Esses valores aumentam em até 20% de Tenacidade e 20% de resistência a redução de velocidade com base na Vida perdida. O valor máximo é alcançado aos 30% de Vida. <br>Valor atual de Tenacidade adicional: @f1@%<br>Valor atual de resistência a redução de velocidade: @f2@%<br><br>Tempo total em combate com resistência aumentada: @f6@s.",
+    "shortDesc": "Ganha um pouco de Tenacidade que aumenta de acordo com a Vida perdida. ",
+    "longDesc": "Recebe 5% de Tenacidade e 5% de resistência a redução de velocidade. Esses valores aumentam em até 20% de Tenacidade e 20% de resistência a redução de velocidade com base na Vida perdida. O valor máximo é alcançado aos 30% de Vida. ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
     "endOfGameStatDescs": [
-      "Seconds in combat at max tenacity granted: @eogvar1@"
+      "Segundos em combate com o máximo de Tenacidade concedida: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 4,
@@ -600,15 +600,15 @@
   },
   {
     "id": 8401,
-    "name": "Shield Bash",
+    "name": "Golpe de Escudo",
     "majorChangePatchVersion": "8.23",
-    "tooltip": "While shielded, gain <scaleLevel>@f6@</scaleLevel> bonus Armor and Magic Resist.<br><br>Whenever you gain a new shield, your next basic attack against a champion deals <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f2@)</scaleHealth> <scaleMana>(+8.5% New Shield Amount)</scaleMana> bonus magic damage.<br><br>You have up to 2s after the shield expires to use this effect.<br><hr><br>Total Damage Dealt: @f1@",
-    "shortDesc": "Whenever you gain a shield, your next basic attack against a champion deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> damage.",
-    "longDesc": "While shielded, gain <scaleLevel>1 - 10</scaleLevel> Armor and Magic Resist based on Level.<br><br>Whenever you gain a new shield,  your next basic attack against a champion deals <scaleLevel>5 - 30</scaleLevel> <scaleHealth>(+1.5% Bonus Health)</scaleHealth> <scaleMana>(+8.5% New Shield Amount)</scaleMana> bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> damage.<br><br>You have up to 2s after the shield expires to use this effect.",
+    "tooltip": "Enquanto sob proteção de um escudo, recebe <scaleLevel>@f6@</scaleLevel> de Armadura e Resistência Mágica.<br><br>Sempre que receber um novo escudo, seu próximo ataque básico contra um Campeão causará <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f2@)</scaleHealth> <scaleMana>(+8.5% da quantidade do novo escudo)</scaleMana> de Dano Mágico adicional.<br><br>Você tem até 2s após o escudo expirar para usar esse efeito.<br><hr><br>Total de dano causado: @f1@",
+    "shortDesc": "Sempre que receber um escudo, seu próximo ataque básico contra um Campeão causará <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.",
+    "longDesc": "Enquanto sob proteção de um escudo, recebe de <scaleLevel>1 a 10</scaleLevel> de Armadura e Resistência Mágica com base no nível.<br><br>Sempre que receber um novo escudo, seu próximo ataque básico contra um Campeão causará de <scaleLevel>5 a 30</scaleLevel> <scaleHealth>(+1.5% de Vida adicional)</scaleHealth> <scaleMana>(+8.5% da quantidade do novo escudo)</scaleMana> de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.<br><br>Você tem até 2s após o escudo acabar para usar este efeito.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/MirrorShell/MirrorShell.png",
     "endOfGameStatDescs": [
-      "Total Damage: @eogvar1@"
+      "Dano total: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 5,
@@ -617,16 +617,16 @@
   },
   {
     "id": 9111,
-    "name": "Triumph",
+    "name": "Triunfo",
     "majorChangePatchVersion": "",
-    "tooltip": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><hr><br>Total health restored: <scaleAD>@f1@</scaleAD><br>Total bonus gold granted: <scaleAD>@f2@</scaleAD>",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
-    "longDesc": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><br><hr><br><i>'The most dangerous game brings the greatest glory.' <br>—Noxian Reckoner</i>",
+    "tooltip": "Eliminações restauram 5% da sua Vida perdida, 2.5% da sua Vida Máxima e concedem 20 de ouro adicional. <br><hr><br>Total de Vida restaurada: <scaleAD>@f1@</scaleAD><br>Total de ouro adicional concedido: <scaleAD>@f2@</scaleAD>",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> restauram 5% da sua Vida perdida e concedem 20 de ouro adicional. ",
+    "longDesc": "Eliminações restauram 5% da sua Vida perdida, 2.5% da sua Vida Máxima e concedem 20 de ouro adicional. <br><br><hr><br><i>''O jogo mais perigoso é o que traz mais glória.'' <br>—Analista Noxiano</i>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Triumph.png",
     "endOfGameStatDescs": [
-      "Total Health Restored: @eogvar1@",
-      "Total bonus gold granted: @eogvar2@"
+      "Total de Vida restaurada: @eogvar1@",
+      "Total de ouro adicional concedido: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 2,
@@ -635,16 +635,16 @@
   },
   {
     "id": 8105,
-    "name": "Relentless Hunter",
+    "name": "Caça Incansável",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "Gain <speed>5 Move Speed</speed> out of combat plus <speed>8</speed> per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Relentless Hunter increase: <speed>@f3.2@% Move Speed</speed><br><hr><br><u>No Claimable Bounties</u>",
-    "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent <b>out of combat <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword></b>. ",
-    "longDesc": "Gain <speed>5 Move Speed</speed> out of combat plus <speed>8</speed> per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.",
+    "tooltip": "Recebe <speed>5 de Velocidade de Movimento</speed> fora de combate mais <speed>8</speed> por acúmulo de <i>Caçador de Recompensas</i>.<br><br>Você receberá acúmulos de <i>Caçador de Recompensas</i> na primeira vez que eliminar cada Campeão inimigo.<br><br>Aumento atual de Caça Incansável: <speed>@f3.2@% de Velocidade de Movimento</speed><br><hr><br><u>Nenhuma recompensa a resgatar</u>",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> <b>únicos</b> concedem <b><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword></b> permanente fora de combate. ",
+    "longDesc": "Recebe <speed>5 de Velocidade de Movimento</speed> fora de combate mais <speed>8</speed> por acúmulo de <i>Caçador de Recompensas</i>.<br><br>Você receberá acúmulos de <i>Caçador de Recompensas</i> na primeira vez que eliminar cada Campeão inimigo.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png",
     "endOfGameStatDescs": [
-      "Total Stacks: @eogvar2@",
-      "<speed>@eogvar1@% Move Speed</speed> increase"
+      "Total de acúmulos: @eogvar2@",
+      "Aumento de <speed>@eogvar1@% de Velocidade de Movimento</speed>"
     ],
     "recommendationDescriptorAttributes": {
       "kMoveSpeed": 10
@@ -652,11 +652,11 @@
   },
   {
     "id": 8454,
-    "name": "The Leviathan",
+    "name": "O Leviatã",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathResolve>Resolve</pathResolve> + <pathDomination>Domination</pathDomination> <br>+0-0 Health based on level<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathResolve>Resolve</pathResolve> + <pathDomination>Domination</pathDomination> Set Bonus</pathBonus>",
-    "longDesc": "+0-0 Health based on level<br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathResolve>Determinação</pathResolve> + <pathDomination>Dominação</pathDomination> <br>+0 - 0 de Vida com base no nível<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathResolve>Determinação</pathResolve> + <pathDomination>Dominação</pathDomination></pathBonus>",
+    "longDesc": "+0 - 0 de Vida com base no nível<br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -664,15 +664,15 @@
   },
   {
     "id": 8275,
-    "name": "Nimbus Cloak",
+    "name": "Manto de Nimbus",
     "majorChangePatchVersion": "8.11",
-    "tooltip": "After casting a Summoner Spell, gain a <speed>Move Speed</speed> increase that lasts for 2s and allows you to pass through units.<br><hr><br>Increase: <speed>5% - 25% Move Speed</speed> based on the Summoner Spell's cooldown. (Higher cooldown Summoner Spells grant more <speed>Move Speed</speed>). <br><hr><br>Times activated: @f1@",
-    "shortDesc": "After casting a Summoner Spell, gain a short <speed>Move Speed</speed> increase that allows you to pass through units.",
-    "longDesc": "After casting a Summoner Spell, gain a <speed>Move Speed</speed> increase that lasts for 2s and allows you to pass through units.<br><br>Increase: <speed>5% - 25% Move Speed</speed> based on the Summoner Spell's cooldown. (Higher cooldown Summoner Spells grant more <speed>Move Speed</speed>). ",
+    "tooltip": "Depois de conjurar um Feitiço de Invocador, recebe um aumento de <speed>Velocidade de Movimento</speed> que dura 2s e permite atravessar unidades.<br><hr><br>Aumento: <speed>5% - 25% de Velocidade de Movimento</speed> com base no Tempo de Recarga do Feitiço de Invocador (Feitiços de Invocador com Tempos de Recarga maiores concedem mais <speed>Velocidade de Movimento</speed>). <br><hr><br>Número de ativações: @f1@",
+    "shortDesc": "Após conjurar um Feitiço de Invocador, concede um breve aumento de <speed>Velocidade de Movimento</speed> que permite atravessar unidades.",
+    "longDesc": "Depois de conjurar um Feitiço de Invocador, recebe um aumento de <speed>Velocidade de Movimento</speed> que dura 2s e permite atravessar unidades.<br><br>Aumento: <speed>5% - 25% de Velocidade de Movimento</speed> com base no Tempo de Recarga do Feitiço de Invocador (Feitiços de Invocador com Tempos de Recarga maiores concedem mais <speed>Velocidade de Movimento</speed>). ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/NimbusCloak/6361.png",
     "endOfGameStatDescs": [
-      "Times activated: @eogvar1@"
+      "Número de ativações: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kMoveSpeed": 10
@@ -680,11 +680,11 @@
   },
   {
     "id": 8207,
-    "name": "The Cryptic",
+    "name": "O Críptico",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathSorcery>Sorcery</pathSorcery> + <pathInspiration>Inspiration</pathInspiration><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathSorcery>Sorcery</pathSorcery> + <pathInspiration>Inspiration</pathInspiration> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathSorcery>Feitiçaria</pathSorcery> + <pathInspiration>Inspiração</pathInspiration> <br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathSorcery>Feitiçaria</pathSorcery> + <pathInspiration>Inspiração</pathInspiration></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -692,26 +692,26 @@
   },
   {
     "id": 8439,
-    "name": "Aftershock",
+    "name": "Pós-choque",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "After immobilizing an enemy champion, increase your Armor and Magic Resist for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f5@)</scaleHealth> <br>Armor buff: @f8@<scaleArmor> (+@f2@)</scaleArmor><br>Magic Resist buff: @f8@<scaleMR> (+@f3@)</scaleMR><br>Cooldown: 20s<br><hr><br>Total damage dealt: <scaleAD>@f1@</scaleAD><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>",
-    "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
-    "longDesc": "After immobilizing an enemy champion, increase your Armor and Magic Resist by 35 + 80% of your Bonus Resists for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: 25 - 120 (+8% of your bonus health)<br>Cooldown: 20s<br><br>Resistance bonus from Aftershock capped at: 80-150 (based on level)<br>",
-    "recommendationDescriptor": "Burst Defenses",
+    "tooltip": "Após imobilizar um Campeão inimigo, aumenta a Armadura e Resistência Mágica por 2.5s. Depois, ocorre uma explosão, causando Dano Mágico a inimigos próximos.<br><br>Dano: <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f5@)</scaleHealth> <br>Efeito de Armadura: @f8@<scaleArmor> (+@f2@)</scaleArmor><br>Efeito de Resistência Mágica: @f8@<scaleMR> (+@f3@)</scaleMR><br>Tempo de Recarga: 20s<br><hr><br>Total de dano causado: <scaleAD>@f1@</scaleAD><br>Total de dano mitigado: <scaleHealth>@f9@</scaleHealth>",
+    "shortDesc": "Após <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>imobilizar</lol-uikit-tooltipped-keyword> um Campeão inimigo, ganha defesas e depois causa um ataque de Dano Mágico explosivo ao seu redor.",
+    "longDesc": "Após imobilizar um Campeão inimigo, aumenta a própria Armadura e Resistência Mágica por 35 + 80% de suas resistências adicionais por 2.5s. Depois ocorre uma explosão, causando Dano Mágico a inimigos próximos.<br><br>Dano: 25 - 120 (+8% da sua Vida adicional)<br>Tempo de Recarga: 20s<br><br>A resistência adicional de Pós-choque é limitada a: 80-150 (com base no nível)<br>",
+    "recommendationDescriptor": "Defesa explosiva",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
     "endOfGameStatDescs": [
-      "Total Damage Dealt: @eogvar1@",
-      "Total Damage Mitigated: @eogvar2@"
+      "Total de dano causado: @eogvar1@",
+      "Dano total mitigado: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8109,
-    "name": "The Wicked Maestro ",
+    "name": "O Maestro Perverso ",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathDomination>Domination</pathDomination> + <pathInspiration>Inspiration</pathInspiration><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathDomination>Domination</pathDomination> + <pathInspiration>Inspiration</pathInspiration> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathDomination>Dominação</pathDomination> + <pathInspiration>Inspiração</pathInspiration><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathDomination>Dominação</pathDomination> + <pathInspiration>Inspiração</pathInspiration></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -719,11 +719,11 @@
   },
   {
     "id": 5002,
-    "name": "Armor",
+    "name": "Armadura",
     "majorChangePatchVersion": "",
-    "tooltip": "+6 Armor",
-    "shortDesc": "+6 Armor",
-    "longDesc": "+6 Armor",
+    "tooltip": "+6 de Armadura",
+    "shortDesc": "+6 de Armadura",
+    "longDesc": "+6 de Armadura",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsArmorIcon.png",
     "endOfGameStatDescs": [],
@@ -731,11 +731,11 @@
   },
   {
     "id": 8414,
-    "name": "The Behemoth",
+    "name": "O Beemote",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathResolve>Resolve</pathResolve> + <pathPrecision>Precision</pathPrecision> <br>+0-0 Health based on level<br>+0% Attack Speed",
-    "shortDesc": "<pathBonus><pathResolve>Resolve</pathResolve> + <pathPrecision>Precision</pathPrecision> Set Bonus</pathBonus>",
-    "longDesc": "+0-0 Health based on level<br>+0% Attack Speed",
+    "tooltip": "<pathResolve>Determinação</pathResolve> + <pathPrecision>Precisão</pathPrecision> <br>+0 - 0 de Vida baseada no nível<br>+0% de Velocidade de Ataque",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathResolve>Determinação</pathResolve> + <pathPrecision>Precisão</pathPrecision></pathBonus>",
+    "longDesc": "+0 - 0 de Vida com base no nível<br>+0% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -743,11 +743,11 @@
   },
   {
     "id": 5008,
-    "name": "Adaptive Force",
+    "name": "Força Adaptativa",
     "majorChangePatchVersion": "",
-    "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>",
-    "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
-    "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<scaleAD>+@f2@ de Dano de Ataque</scaleAD>",
+    "shortDesc": "+9 de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Força Adaptativa</font></lol-uikit-tooltipped-keyword>",
+    "longDesc": "+9 de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Força Adaptativa</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAdaptiveForceIcon.png",
     "endOfGameStatDescs": [],
@@ -755,11 +755,11 @@
   },
   {
     "id": 8320,
-    "name": "The Timeless",
+    "name": "O Atemporal",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathInspiration>Inspiration</pathInspiration> + <pathResolve>Resolve</pathResolve><br>+0-0 Health based on level",
-    "shortDesc": "<pathBonus><pathInspiration>Inspiration</pathInspiration> + <pathResolve>Resolve</pathResolve> Set Bonus</pathBonus>",
-    "longDesc": "+0-0 Health based on level",
+    "tooltip": "<pathInspiration>Inspiração</pathInspiration> + <pathResolve>Determinação</pathResolve><br>+0 - 0 de Vida com base no nível",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathInspiration>Inspiração</pathInspiration> + <pathResolve>Determinação</pathResolve></pathBonus>",
+    "longDesc": "+0 - 0 de Vida com base no nível",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -767,11 +767,11 @@
   },
   {
     "id": 8319,
-    "name": "The Stargazer",
+    "name": "O Observador das Estrelas",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathInspiration>Inspiration</pathInspiration> + <pathSorcery>Sorcery</pathSorcery><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathInspiration>Inspiration</pathInspiration> + <pathSorcery>Sorcery</pathSorcery> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathInspiration>Inspiração</pathInspiration> + <pathSorcery>Feitiçaria</pathSorcery><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathInspiration>Inspiração</pathInspiration> + <pathSorcery>Feitiçaria</pathSorcery></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -779,11 +779,11 @@
   },
   {
     "id": 5001,
-    "name": "Health Scaling",
+    "name": "Escalamento de Vida",
     "majorChangePatchVersion": "",
-    "tooltip": "+@f1@ Health (based on level)",
-    "shortDesc": "+15-140 Health (based on level)",
-    "longDesc": "+15-140 Health (based on level)",
+    "tooltip": "+@f1@ de Vida (com base no nível)",
+    "shortDesc": "+15-140 de Vida (com base no nível)",
+    "longDesc": "+15-140 de Vida (com base no nível)",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsHealthScalingIcon.png",
     "endOfGameStatDescs": [],
@@ -791,29 +791,29 @@
   },
   {
     "id": 8430,
-    "name": "Iron Skin",
+    "name": "Pele de Aço",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain +5 Armor. <br><br>Heal effects from consumables, heals for at least 20 health and shields increase your Armor by 5% for 3s.",
-    "shortDesc": "Gain +5 Armor. <br>Heals, including consumables, increase your Armor by 5% temporarily.",
-    "longDesc": "Gain +5 Armor. <br><br>Heal effects from consumables, heals for at least 20 health and shields increase your Armor by 5% for 3s.",
+    "tooltip": "Recebe +5 de Armadura. <br><br>Efeitos de cura provindos de consumíveis curam pelo menos 20 de Vida e escudos aumentam sua Armadura em 5% por 3s.",
+    "shortDesc": "Recebe +5 de Armadura. <br>Curas, incluindo consumíveis, aumentam sua Armadura em 5% temporariamente.",
+    "longDesc": "Recebe +5 de Armadura. <br><br>Efeitos de cura provindos de consumíveis curam pelo menos 20 de Vida e escudos aumentam sua Armadura em 5% por 3s.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/IronSkin/IronSkin.png",
     "endOfGameStatDescs": [
-      "Percent of game active: @eogvar1@%"
+      "Porcentagem de jogo ativo: @eogvar1@%"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8014,
-    "name": "Coup de Grace",
+    "name": "Golpe de Misericórdia",
     "majorChangePatchVersion": "",
-    "tooltip": "Deal 8% more damage to champions who have less than 40% health.<br><hr><br>Total bonus damage dealt: <scaleAD>@f1@</scaleAD>",
-    "shortDesc": "Deal more damage to low health enemy champions.",
-    "longDesc": "Deal 8% more damage to champions who have less than 40% health.",
+    "tooltip": "Causa 8% mais dano para Campeões que possuem menos de 40% de Vida.<br><hr><br>Total de dano adicional causado: <scaleAD>@f1@</scaleAD>",
+    "shortDesc": "Causa mais dano a Campeões inimigos com pouca Vida.",
+    "longDesc": "Causa 8% mais dano para Campeões que possuem menos de 40% de Vida.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png",
     "endOfGameStatDescs": [
-      "Total Bonus Damage: @eogvar1@"
+      "Dano adicional total: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 8,
@@ -822,11 +822,11 @@
   },
   {
     "id": 5007,
-    "name": "Ability Haste",
+    "name": "Aceleração de Habilidade",
     "majorChangePatchVersion": "",
-    "tooltip": "+@f1@ Ability Haste",
-    "shortDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> ",
-    "longDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> ",
+    "tooltip": "+@f1@ de Aceleração de Habilidade",
+    "shortDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'> de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> ",
+    "longDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'> de Aceleração de Habilidade</lol-uikit-tooltipped-keyword> ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsCDRScalingIcon.png",
     "endOfGameStatDescs": [],
@@ -834,30 +834,30 @@
   },
   {
     "id": 8021,
-    "name": "Fleet Footwork",
+    "name": "Agilidade nos Pés",
     "majorChangePatchVersion": "",
-    "tooltip": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for <font color='#ffffff'>@f2@</font> <scaleAD>(+@f3@)</scaleAD> <scaleAP>(+@f4@)</scaleAP> and grant <speed>@f5*100@% Move Speed</speed> for 1 second.<br><rules><br>Healing from minions is 10% effective for Ranged Champions, and 20% effective for Melee Champions.<br></rules><hr><br>Total Healing: @f1@",
-    "shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>.",
-    "longDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized<br><br>Energized attacks heal you for 10 - 130 (+0.1 Bonus AD, +0.05 AP) and grant <speed>20% Move Speed</speed> for 1s.<br><br>Healing from minions is 10% effective for Ranged Champions, and 20% effective for Melee Champions.",
-    "recommendationDescriptor": "Movement, Health Recovery",
+    "tooltip": "Ao Atacar ou se mover, você recebe acúmulos de Energia. Com 100 acúmulos, seu próximo Ataque fica Energizado.<br><br>Ataques Energizados curam em <font color='#ffffff'>@f2@</font> <scaleAD>(+@f3@)</scaleAD> <scaleAP>(+@f4@)</scaleAP> e concedem <speed>@f5*100@% de Velocidade de Movimento</speed> por 1s.<br><rules><br>A cura recebida das tropas é 10% eficaz para Campeões de ataque à distância e 20% eficaz para Campeões de ataque corpo a corpo.<br></rules><hr><br>Total de cura: @f1@",
+    "shortDesc": "Atacar e se movimentar geram acúmulos de Energia. Com 100 acúmulos, seu próximo ataque cura você e concede um aumento de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword>.",
+    "longDesc": "Ao Atacar ou se mover, você recebe acúmulos de Energia. Com 100 acúmulos, seu próximo Ataque fica Energizado.<br><br>Ataques Energizados curam em 10 - 130 (+0.1 de DdA adicional, +0.05 de PdH) e concedem <speed>20% de Velocidade de Movimento</speed> por 1s.<br><br>A cura recebida das tropas é 10% eficaz para Campeões de ataque à distância e 20% eficaz para Campeões de ataque corpo a corpo.",
+    "recommendationDescriptor": "Movimentação, recuperação de Vida",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
     "endOfGameStatDescs": [
-      "Total Healing: @eogvar1@"
+      "Total de cura: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8226,
-    "name": "Manaflow Band",
+    "name": "Faixa de Fluxo de Mana",
     "majorChangePatchVersion": "8.7",
-    "tooltip": "Hitting an enemy champion with an ability permanently increases your maximum mana by 25, up to 250 mana.<br><br>After reaching 250 bonus mana, restore 1% of your missing mana every 5 seconds.<br><br>Cooldown: 15 seconds<br><hr><br>Total bonus mana: @f1@<br>Total mana restored: @f2@",
-    "shortDesc": "Hitting an enemy champion with an ability permanently increases your maximum mana by 25, up to 250 mana.<br><br>After reaching 250 bonus mana, restore 1% of your missing mana every 5 seconds.",
-    "longDesc": "Hitting an enemy champion with an ability permanently increases your maximum mana by 25, up to 250 mana.<br><br>After reaching 250 bonus mana, restore 1% of your missing mana every 5 seconds.<br><br>Cooldown: 15 seconds",
+    "tooltip": "Atingir um Campeão inimigo com uma habilidade aumenta permanentemente seu Mana máximo em 25, até o total de 250 de Mana.<br><br>Após atingir 250 de Mana adicional, 1% do seu Mana perdido é restaurado a cada 5s.<br><br>Tempo de Recarga: 15s<br><hr><br>Total de Mana adicional: @f1@<br>Total de Mana restaurada: @f2@",
+    "shortDesc": "Atingir um Campeão inimigo com uma habilidade aumenta permanentemente seu Mana máximo em 25, até o total de 250 de Mana.<br><br>Após atingir 250 de Mana adicional, 1% da seu Mana perdido é restaurado a cada 5s",
+    "longDesc": "Atingir um Campeão inimigo com uma habilidade aumenta permanentemente seu Mana máximo em 25, até o total de 250 de Mana.<br><br>Após atingir 250 de Mana adicional, 1% do seu Mana perdido é restaurado a cada 5s.<br><br>Tempo de Recarga: 15s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png",
     "endOfGameStatDescs": [
-      "Total bonus mana: @eogvar1@",
-      "Total mana restored: @eogvar2@"
+      "Total de Mana adicional: @eogvar1@",
+      "Total de Mana restaurada: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kMana": 15
@@ -865,15 +865,15 @@
   },
   {
     "id": 8451,
-    "name": "Overgrowth",
+    "name": "Crescimento Excessivo",
     "majorChangePatchVersion": "8.23",
-    "tooltip": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.<br><hr><br>Total Max Health Earned: <scaleHealth>@f1@</scaleHealth><br>Enemies Absorbed: <passiveText>@f2@</passiveText>",
-    "shortDesc": "Gain permanent max health when minions or monsters die near you.",
-    "longDesc": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.",
+    "tooltip": "Absorve essência vital de monstros ou tropas inimigas que morrem perto de você, ganhando permanentemente 3 de Vida máxima a cada 8.<br><br>Após absorver 120 monstros ou tropas inimigas, concede mais 3.5% de Vida máxima.<br><hr><br>Total de Vida máx. recebida: <scaleHealth>@f1@</scaleHealth><br>Inimigos absorvidos: <passiveText>@f2@</passiveText>",
+    "shortDesc": "Recebe Vida máxima permanente quando tropas inimigas ou monstros são abatidos perto de você.",
+    "longDesc": "Absorve essência vital de monstros ou tropas inimigas que morrem perto de você, ganhando permanentemente 3 de Vida máxima a cada 8.<br><br>Após absorver 120 monstros ou tropas inimigas, concede mais 3.5% de Vida máxima.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
     "endOfGameStatDescs": [
-      "Total Bonus Max Health: @eogvar1@"
+      "Total de Vida máx. adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 10
@@ -881,15 +881,15 @@
   },
   {
     "id": 8313,
-    "name": "Perfect Timing",
+    "name": "Sincronia Perfeita",
     "majorChangePatchVersion": "",
-    "tooltip": "Begin the game with a Commencing Stopwatch that transforms into a Stopwatch after 14 minutes. Each takedown you acquire reduces this timer by 120 seconds.<br><br>Stopwatch can be used for a one time 2.5 second Stasis effect.",
-    "shortDesc": "Gain a free Commencing Stopwatch. After 14 minutes, it can be used for a one time <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasis</lol-uikit-tooltipped-keyword> effect. <br><br>Each <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedown</lol-uikit-tooltipped-keyword> you get shortens this timer by 120 seconds.",
-    "longDesc": "Begin the game with a Commencing Stopwatch that transforms into a Stopwatch after 14 minutes. Each takedown you acquire reduces this timer by 120 seconds.<br><br>Stopwatch can be used for a one time 2.5 second Stasis effect.",
+    "tooltip": "Começa a partida com um Cronômetro Inicial que se transforma em Cronômetro depois de 14min. Cada eliminação da qual você participar reduz esse tempo em 120s.<br><br>É possível usar Cronômetro uma vez para obter um efeito de Estase de 2.5s.",
+    "shortDesc": "Ganha um Cronômetro Inicial. Após 14min, é possível usar uma vez para obter um efeito de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Estase</lol-uikit-tooltipped-keyword>. <br><br>Cada <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>eliminação</lol-uikit-tooltipped-keyword> da qual você participar reduz esse tempo em 120s.",
+    "longDesc": "Começa a partida com um Cronômetro Inicial que se transforma em Cronômetro depois de 14min. Cada eliminação da qual você participar reduz esse tempo em 120s.<br><br>É possível usar Cronômetro uma vez para obter um efeito de Estase de 2.5s.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/PerfectTiming/PerfectTiming.png",
     "endOfGameStatDescs": [
-      "Timing: Perfect"
+      "Sincronia: Perfeita"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -897,15 +897,15 @@
   },
   {
     "id": 9103,
-    "name": "Legend: Bloodline",
+    "name": "Lenda: Linhagem",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain <scaleAD>0.35% Life Steal</scaleAD> for every <i>Legend</i> stack (<statGood>max 15 stacks</statGood>). At maximum <i>Legend</i> stacks, gain <scaleHealth>85 max health</scaleHealth>.<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Life Steal Granted: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 15</statGood>)<br>Progress Towards Next Stack: @f2@%<br>",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent<b> Life Steal</b>, up to a cap. Once the cap is reached, increase your max health. Weaker earlier but stronger later game than other Legend Runes.",
-    "longDesc": "Gain <scaleAD>0.35% Life Steal</scaleAD> for every <i>Legend</i> stack (<statGood>max 15 stacks</statGood>). At maximum <i>Legend</i> stacks, gain <scaleHealth>85 max health</scaleHealth>.<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+    "tooltip": "Recebe <scaleAD>0.35% de Roubo de Vida</scaleAD> para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 15 acúmulos</statGood>). Com o máximo de acúmulos de <i>Lenda</i>, recebe <scaleHealth>85 de Vida máxima adicional</scaleHealth>.<br><br>Progrida nos acúmulos de <i>Lenda</i> a cada eliminação de Campeão, eliminação de monstro épico, abate de monstro grande e abate de tropas.<br><hr><br>Total de Roubo de Vida concedido: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ de 15</statGood>)<br>Progresso para o próximo acúmulo: @f2@%<br>",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> de inimigos concedem <b>Roubo de Vida</b> permanente até um limite. Quando o limite é atingido, aumentam sua Vida máxima. Fraco no começo mas fica mais forte do que as outras runas Lenda no fim de jogo.",
+    "longDesc": "Recebe <scaleAD>0.35% de Roubo de Vida</scaleAD> para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 15 acúmulos</statGood>). Com o máximo de acúmulos de <i>Lenda</i>, recebe <scaleHealth>85 de Vida máxima adicional</scaleHealth>.<br><br>Progrida nos acúmulos de <i>Lenda</i> a cada eliminação de Campeão, eliminação de monstro épico, abate de monstro grande e abate de tropas.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png",
     "endOfGameStatDescs": [
-      "Time Completed: @eogvar1@:@eogvar2@"
+      "Tempo concluído: @eogvar1@:@eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 10
@@ -913,11 +913,11 @@
   },
   {
     "id": 8114,
-    "name": "The Immortal Butcher",
+    "name": "O Algoz Imortal",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathDomination>Domination</pathDomination> + <pathResolve>Resolve</pathResolve><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD><br>+0-0 Health based on level",
-    "shortDesc": "<pathBonus><pathDomination>Domination</pathDomination> + <pathResolve>Resolve</pathResolve> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>+0-0 Health based on level",
+    "tooltip": "<pathDomination>Dominação</pathDomination> + <pathResolve>Determinação</pathResolve><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD><br>+0 - 0 de Vida com base no nível",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathDomination>Dominação</pathDomination> + <pathResolve>Determinação</pathResolve></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>+0 - 0 de Vida com base no nível",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -925,25 +925,25 @@
   },
   {
     "id": 8230,
-    "name": "Phase Rush",
+    "name": "Ímpeto Gradual",
     "majorChangePatchVersion": "",
-    "tooltip": "Hitting an enemy champion with 3 attacks or <b>separate</b> abilities within 4s grants <speed>15 - 40% Move Speed</speed> based on level and 75% Slow Resistance. <hr>This is increased to <speed>25 - 50% Move Speed</speed> for Melee champions.<hr>Duration: 3s<br>Cooldown: @f4@s<br>Haste Bonus: @f2@%",
-    "shortDesc": "Hitting an enemy champion with 3 <b>separate</b> attacks or abilities grants a burst of <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>. ",
-    "longDesc": "Hitting an enemy champion with 3 attacks or <b>separate</b> abilities within 4s grants <speed>15 - 40% Move Speed</speed> based on level and 75% Slow Resistance. <hr>This is increased to <speed>25 - 50% Move Speed</speed> for Melee champions.<hr>Duration: 3s<br>Cooldown: 30s - 10s",
-    "recommendationDescriptor": "Rush of Movement",
+    "tooltip": "Atingir um Campeão inimigo com 3 Ataques ou Habilidades <b>diferentes</b> dentro de 4s concede <speed>15% - 40% de Velocidade de Movimento</speed> com base no nível e 75% de Resistência a Lentidão. <hr>O efeito é aumentado para <speed>25% - 50% de Velocidade de Movimento</speed> para Campeões de ataque corpo a corpo.<hr>Duração: 3s<br>Tempo de Recarga: @f4@s<br>Adicional da Aceleração: @f2@%",
+    "shortDesc": "Atingir um Campeão inimigo com 3 Ataques ou Habilidades <b>diferentes</b> concede um impulso de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword>. ",
+    "longDesc": "Atingir um Campeão inimigo com 3 Ataques ou Habilidades <b>diferentes</b> dentro de 4s concede <speed>15% - 40% de Velocidade de Movimento</speed> com base no nível e 75% de Resistência a Lentidão. <hr>O efeito é aumentado para <speed>25% - 50% de Velocidade de Movimento</speed> para Campeões de ataque corpo a corpo.<hr>Duração: 3s<br>Tempo de Recarga: 30s - 10s",
+    "recommendationDescriptor": "Ímpeto de movimento",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/PhaseRush/PhaseRush.png",
     "endOfGameStatDescs": [
-      "Total activations: @eogvar1@"
+      "Total de ativações: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8318,
-    "name": "The Ruthless Visionary",
+    "name": "O Visionário Implacável",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathInspiration>Inspiration</pathInspiration> + <pathDomination>Domination</pathDomination><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "<pathBonus><pathInspiration>Inspiration</pathInspiration> + <pathDomination>Domination</pathDomination> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword>",
+    "tooltip": "<pathInspiration>Inspiração</pathInspiration> + <pathDomination>Dominação</pathDomination><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathInspiration>Inspiração</pathInspiration> + <pathDomination>Dominação</pathDomination></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -951,15 +951,15 @@
   },
   {
     "id": 8316,
-    "name": "Minion Dematerializer",
+    "name": "Pulverizador de Tropas",
     "majorChangePatchVersion": "9.6",
-    "tooltip": "Start the game with 3 Minion Dematerializers that kill and absorb lane minions instantly. Minion Dematerializers are on cooldown for the first 180s of the game.<br><br>Absorbing a minion increases your damage by +6% against that type of minion permanently, and an extra +3% for each additional minion of that type absorbed.<br><br><hr><br>Melee Bonus Damage: +@f1@%<br>Caster Bonus Damage: +@f2@%<br>Siege Bonus Damage: +@f3@%",
-    "shortDesc": "Start the game with 3 Minion Dematerializers. Killing minions with the item gives permanent bonus damage vs. that minion type.",
-    "longDesc": "Start the game with 3 Minion Dematerializers that kill and absorb lane minions instantly. Minion Dematerializers are on cooldown for the first 180s of the game.<br><br>Absorbing a minion increases your damage by +6% against that type of minion permanently, and an extra +3% for each additional minion of that type absorbed.<br>",
+    "tooltip": "Comece o jogo com 3 unidades de Pulverizador de Tropas que abatem e absorvem tropas nas rotas instantaneamente. Pulverizador de Tropas fica em Tempo de Recarga pelos primeiros 180s do jogo.<br><br>Absorver uma tropa aumenta permanentemente seu dano contra esse tipo de tropa em 6% e em mais 3% para cada abate adicional do mesmo tipo de tropa.<br><br><hr><br>Dano adicional a tropas corpo a corpo: +@f1@%<br>Dano adicional a tropas conjuradoras: +@f2@%<br>Dano adicional a tropas de cerco: +@f3@%",
+    "shortDesc": "Inicia a partida com 3 unidades de Pulverizador de Tropas. Abater tropas com este item concede dano adicional permanente contra o tipo de tropa abatido.",
+    "longDesc": "Comece o jogo com 3 unidades de Pulverizador de Tropas que abatem e absorvem tropas nas rotas instantaneamente. Pulverizador de Tropas fica em Tempo de Recarga pelos primeiros 180s do jogo.<br><br>Absorver uma tropa aumenta permanentemente seu dano contra esse tipo de tropa em 6% e em mais 3% para cada abate adicional do mesmo tipo de tropa.<br>",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/MinionDematerializer/MinionDematerializer.png",
     "endOfGameStatDescs": [
-      "Bonus Minion Damage Dealt: @eogvar1@"
+      "Dano adicional causado a tropas: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -967,15 +967,15 @@
   },
   {
     "id": 8463,
-    "name": "Font of Life",
+    "name": "Fonte da Vida",
     "majorChangePatchVersion": "",
-    "tooltip": "Impairing the movement of an enemy champion marks them for 4s.<br><br>Ally champions who attack marked enemies heal for 5 + 0.9% of your max health over 2s. ",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion marks them. Your allies heal when attacking champions you've marked. ",
-    "longDesc": "Impairing the movement of an enemy champion marks them for 4s.<br><br>Ally champions who attack marked enemies heal for 5 + 0.9% of your max health over 2s. ",
+    "tooltip": "Debilitar o movimento de um Campeão inimigo o deixa marcado por 4s.<br><br>Campeões aliados que atacarem inimigos marcados são curados em 5 + 0.9% de sua Vida máxima por 2s. ",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Debilitar</lol-uikit-tooltipped-keyword> o movimento de um Campeão inimigo o deixa marcado. Seus aliados são curados quando atacam Campeões marcados por você. ",
+    "longDesc": "Debilitar o movimento de um Campeão inimigo o deixa marcado por 4s.<br><br>Campeões aliados que atacarem inimigos marcados são curados em 5 + 0.9% de sua Vida máxima por 2s. ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
     "endOfGameStatDescs": [
-      "Total Ally Healing: @eogvar1@"
+      "Total de cura de aliados: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 5,
@@ -996,15 +996,15 @@
   },
   {
     "id": 8304,
-    "name": "Magical Footwear",
+    "name": "Calçados Mágicos",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "You get free Slightly Magical Footwear at 12 min, but you cannot buy boots before then. For each takedown you acquire the boots 45s sooner.<br><br>Slightly Magical Footwear grants you an additional <speed>10 Move Speed</speed>.<br><hr><br><scaleAD>Boots arrival time:</scaleAD> @f1@:@f2@@f3@",
-    "shortDesc": "You get free boots at 12 min but you cannot buy boots before then. Each <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedown</lol-uikit-tooltipped-keyword> you get makes your boots come 45s sooner.",
-    "longDesc": "You get free Slightly Magical Footwear at 12 min, but you cannot buy boots before then. For each takedown you acquire the boots 45s sooner.<br><br>Slightly Magical Footwear grants you an additional <speed>10 Move Speed</speed>.",
+    "tooltip": "Recebe Botas Levemente Mágicas gratuitamente aos 12 min, mas não é possível comprar botas antes disso. Cada eliminação acelera o recebimento das botas em 45s.<br><br>O item Botas Levemente Mágicas concede a você <speed>10 de Velocidade de Movimento</speed> adicional.<br><hr><br><scaleAD>Tempo de chegada das botas:</scaleAD> @f1@:@f2@@f3@",
+    "shortDesc": "Concede botas gratuitamente aos 12 mins, mas não é possível comprar botas antes disso. Cada <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>abate</lol-uikit-tooltipped-keyword> bem-sucedido faz suas botas virem 45s mais cedo.",
+    "longDesc": "Recebe Botas Levemente Mágicas gratuitamente aos 12 min, mas não é possível comprar botas antes disso. Cada eliminação acelera o recebimento das botas em 45s.<br><br>O item Botas Levemente Mágicas concede a você <speed>10 de Velocidade de Movimento</speed> adicional.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png",
     "endOfGameStatDescs": [
-      "Boots Arrival Time: @eogvar1@:@eogvar2@@eogvar3@"
+      "Tempo de chegada das botas: @eogvar1@:@eogvar2@@eogvar3@"
     ],
     "recommendationDescriptorAttributes": {
       "kGold": 10,
@@ -1013,15 +1013,15 @@
   },
   {
     "id": 8236,
-    "name": "Gathering Storm",
+    "name": "Tempestade Crescente",
     "majorChangePatchVersion": "",
-    "tooltip": "Every 10 min gain AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 AP or 5 AD <br><i>20 min</i>: + 24 AP or 14 AD<br><i>30 min</i>: + 48 AP or 29 AD<br><i>40 min</i>: + 80 AP or 48 AD<br><i>50 min</i>: + 120 AP or 72 AD<br><i>60 min</i>: + 168 AP or 101 AD<br>etc...<br><hr><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "Gain increasing amounts of AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> over the course of the game.",
-    "longDesc": "Every 10 min gain AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 AP or 5 AD <br><i>20 min</i>: + 24 AP or 14 AD<br><i>30 min</i>: + 48 AP or 29 AD<br><i>40 min</i>: + 80 AP or 48 AD<br><i>50 min</i>: + 120 AP or 72 AD<br><i>60 min</i>: + 168 AP or 101 AD<br>etc...",
+    "tooltip": "A cada 10 min, recebe PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 de PdH ou 5 de DdA <br><i>20 min</i>: + 24 de PdH ou 14 de DdA<br><i>30 min</i>: + 48 de PdH ou 29 de DdA<br><i>40 min</i>: + 80 de PdH ou 48 de DdA<br><i>50 min</i>: + 120 de PdH ou 72 de DdA<br><i>60 min</i>: + 168 de PdH ou 101 de DdA<br>etc.<br><hr><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "Recebe quantidades crescentes de DdA ou PdH <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>Adaptativo</lol-uikit-tooltipped-keyword> ao longo da partida.",
+    "longDesc": "A cada 10 min, recebe PdH ou DdA <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 de PdH ou 5 de DdA <br><i>20 min</i>: + 24 de PdH ou 14 de DdA<br><i>30 min</i>: + 48 de PdH ou 29 de DdA<br><i>40 min</i>: + 80 de PdH ou 48 de DdA<br><i>50 min</i>: + 120 de PdH ou 72 de DdA<br><i>60 min</i>: + 168 de PdH ou 101 de DdA<br>etc.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png",
     "endOfGameStatDescs": [
-      "Total Bonus AD/AP: @eogvar1@"
+      "Total de PdH/DdA adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 5,
@@ -1030,15 +1030,15 @@
   },
   {
     "id": 8009,
-    "name": "Presence of Mind",
+    "name": "Presença de Espírito",
     "majorChangePatchVersion": "8.7",
-    "tooltip": "Damaging an enemy champion increases your mana regeneration by @RegenAmount@ (80% for ranged) mana per second for 4 seconds. All energy users gain 1.5 energy per second, instead.<br><br>Takedowns restore 15% of your maximum mana or energy. <br><hr><br>Resource Restored: @f1@<br>",
-    "shortDesc": "Increase your mana or energy regeneration when damaging an enemy champion. Takedowns restore mana or energy.",
-    "longDesc": "Damaging an enemy champion increases your mana regeneration by 1.5-11 (80% for ranged) mana per second for 4 seconds. All energy users gain 1.5 energy per second, instead.<br><br>Takedowns restore 15% of your maximum mana or energy. ",
+    "tooltip": "Causar dano a um Campeão inimigo aumenta a Regeneração de Mana base em @RegenAmount@ (80% para Campeões de ataque à distância) de Mana por segundo por 4s. Todos os usuários de Energia recebem 1,5 de Energia por segundo.<br><br>Eliminações restauram 15% do seu Mana máximo ou da sua Energia máxima. <br><hr><br>Recurso restaurado: @f1@<br>",
+    "shortDesc": "Aumenta sua Regeneração de Mana ou de Energia quando causar dano a um Campeão inimigo. Eliminações restauram Mana ou Energia.",
+    "longDesc": "Causar dano a um Campeão inimigo aumenta a Regeneração de Mana base em 1.5 - 11 (80% para Campeões de ataque à distância) de Mana por segundo por 4s. Todos os usuários de Energia recebem 1,5 de Energia por segundo.<br><br>Eliminações restauram 15% do seu Mana máximo ou da sua Energia máxima. ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png",
     "endOfGameStatDescs": [
-      "Resource Restored: @eogvar1@"
+      "Recurso restaurado: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kMana": 15
@@ -1046,11 +1046,11 @@
   },
   {
     "id": 8006,
-    "name": "The Eternal Champion",
+    "name": "O Eterno Campeão",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathPrecision>Precision</pathPrecision> + <pathResolve>Resolve</pathResolve><br>+0% Attack Speed<br>+0-0 Health based on level",
-    "shortDesc": "<pathBonus><pathPrecision>Precision</pathPrecision> + <pathResolve>Resolve</pathResolve> Set Bonus</pathBonus>",
-    "longDesc": "+0% Attack Speed<br>+0-0 Health based on level",
+    "tooltip": "<pathPrecision>Precisão</pathPrecision> + <pathResolve>Determinação</pathResolve><br>+0% de Velocidade de Ataque<br>+0 - 0 de Vida com base no nível",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathPrecision>Precisão</pathPrecision> + <pathResolve>Determinação</pathResolve></pathBonus>",
+    "longDesc": "+0% de Velocidade de Ataque<br>+0 - 0 de Vida com base no nível",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1058,15 +1058,15 @@
   },
   {
     "id": 9104,
-    "name": "Legend: Alacrity",
+    "name": "Lenda: Espontaneidade",
     "majorChangePatchVersion": "",
-    "tooltip": "Gain 3% attack speed plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Attack Speed added: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent <b>Attack Speed</b>. ",
-    "longDesc": "Gain 3% attack speed plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.",
+    "tooltip": "Recebe 3% de Velocidade de Ataque mais um adicional de 1.5% para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 10 acúmulos</statGood>).<br><br>Avance nos acúmulos de <i>Lenda</i> a cada abate de Campeão, abate de monstro épico, abate de monstro grande e abate de tropas.<br><hr><br>Total de Velocidade de Ataque adicionada: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ de 10</statGood>)<br>Progresso para o próximo acúmulo: @f2@%",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> em inimigos concedem <b>Velocidade de Ataque</b> permanente. ",
+    "longDesc": "Recebe 3% de Velocidade de Ataque mais um adicional de 1.5% para cada acúmulo de <i>Lenda</i> (<statGood>máximo de 10 acúmulos</statGood>).<br><br>Avance nos acúmulos de <i>Lenda</i> a cada abate de Campeão, abate de monstro épico, abate de monstro grande e abate de tropas.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png",
     "endOfGameStatDescs": [
-      "Time Completed: @eogvar1@:@eogvar2@"
+      "Tempo concluído: @eogvar1@:@eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kDamagePerSecond": 10
@@ -1074,11 +1074,11 @@
   },
   {
     "id": 8416,
-    "name": "The Enlightened Titan",
+    "name": "O Titã Iluminado",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathResolve>Resolve</pathResolve> + <pathInspiration>Inspiration</pathInspiration><br>+0-0 Health based on level",
-    "shortDesc": "<pathBonus><pathResolve>Resolve</pathResolve> + <pathInspiration>Inspiration</pathInspiration> Set Bonus</pathBonus>",
-    "longDesc": "+0-0 Health based on level",
+    "tooltip": "<pathResolve>Determinação</pathResolve> + <pathInspiration>Inspiração</pathInspiration><br>+0 - 0 de Vida com base no nível",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathResolve>Determinação</pathResolve> + <pathInspiration>Inspiração</pathInspiration></pathBonus>",
+    "longDesc": "+0 - 0 de Vida com base no nível",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1086,11 +1086,11 @@
   },
   {
     "id": 5005,
-    "name": "Attack Speed",
+    "name": "Velocidade de Ataque",
     "majorChangePatchVersion": "",
-    "tooltip": "+10% Attack Speed",
-    "shortDesc": "+10% Attack Speed",
-    "longDesc": "+10% Attack Speed",
+    "tooltip": "+10% de Velocidade de Ataque",
+    "shortDesc": "+10% de Velocidade de Ataque",
+    "longDesc": "+10% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/StatMods/StatModsAttackSpeedIcon.png",
     "endOfGameStatDescs": [],
@@ -1098,15 +1098,15 @@
   },
   {
     "id": 8306,
-    "name": "Hextech Flashtraption",
+    "name": "Flashtração Hextec",
     "majorChangePatchVersion": "",
-    "tooltip": "While Flash is on cooldown it is replaced by <i>Hexflash</i>.<br><br><i>Hexflash</i>: Channel for 2s to blink to a new location.<br><br>Cooldown: 20s. Goes on a 10s cooldown when you enter champion combat.",
-    "shortDesc": "While Flash is on cooldown it is replaced by <i>Hexflash</i>.<br><br><i>Hexflash</i>: Channel, then blink to a new location.",
-    "longDesc": "While Flash is on cooldown it is replaced by <i>Hexflash</i>.<br><br><i>Hexflash</i>: Channel for 2s to blink to a new location.<br><br>Cooldown: 20s. Goes on a 10s cooldown when you enter champion combat.",
+    "tooltip": "Enquanto o Flash estiver em Tempo de Recarga, ele é substituído pelo <i>Flash Hextec</i>.<br><br><i>Flash Hextec</i>: Canalize por 2s para se teletransportar para um novo local.<br><br>Tempo de Recarga: 20s. Entra em Tempo de Recarga por 10s quando você entra em combate contra um Campeão.",
+    "shortDesc": "Enquanto o Flash estiver em Tempo de Recarga, ele é substituído pelo <i>Flash Hextec</i>.<br><br><i>Flash Hextec</i>: canalize e depois se teletransporte para um novo local.",
+    "longDesc": "Enquanto o Flash estiver em Tempo de Recarga, ele é substituído pelo <i>Flash Hextec</i>.<br><br><i>Flash Hextec</i>: Canalize por 2s para se teletransportar para um novo local.<br><br>Tempo de Recarga: 20s. Entra em Tempo de Recarga por 10s quando você entra em combate contra um Campeão.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png",
     "endOfGameStatDescs": [
-      "Times Hexflashed: @eogvar1@"
+      "Quantidade de vezes de Flash Hextec: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -1114,29 +1114,29 @@
   },
   {
     "id": 8465,
-    "name": "Guardian",
+    "name": "Guardião",
     "majorChangePatchVersion": "",
-    "tooltip": "<i>Guard</i> allies within 350 units of you, and allies you target with spells for 2.5s. While <i>Guarding</i>, if you or the ally take more than a small amount of damage over the duration of the <i>Guard</i>, both of you gain a shield for 1.5s.<br><hr><br>Cooldown: <scaleLevel>@f5@</scaleLevel> seconds<br>Current shield strength: <scaleLevel>@f2@</scaleLevel> <scaleAP>(+@f3@)</scaleAP> <scaleHealth>(+@f4@)</scaleHealth>.",
-    "shortDesc": "Guard allies you cast spells on and those that are very nearby. If you or a guarded ally would take damage based on level, you're both granted a shield.",
-    "longDesc": "<i>Guard</i> allies within 350 units of you, and allies you target with spells for 2.5s. While <i>Guarding</i>, if you or the ally take more than a small amount of damage over the duration of the <i>Guard</i>, both of you gain a shield for 1.5s.<br><br>Cooldown: <scaleLevel>90 - 40</scaleLevel> seconds<br>Shield: <scaleLevel>45 - 120</scaleLevel> + <scaleAP>12.5%</scaleAP> of your ability power + <scalehealth>8%</scalehealth> of your bonus health<br>Proc Threshold: <scaleLevel>90 - 250</scaleLevel> postmitigation damage",
-    "recommendationDescriptor": "Shield Allies",
+    "tooltip": "<i>Protege</i> por 2.5s aliados a até 350 unidades de distância de você e aliados nos quais você tenha conjurado habilidades. Durante a <i>Proteção</i>, caso você ou o aliado sofram uma quantidade significativa de dano ao longo da duração de <i>Guardião</i>, ambos ganham um escudo por 1.5s.<br><hr><br>Tempo de Recarga: <scaleLevel>@f5@</scaleLevel>s<br>Força atual do escudo: <scaleLevel>@f2@</scaleLevel> <scaleAP>(+@f3@)</scaleAP> <scaleHealth>(+@f4@)</scaleHealth>.",
+    "shortDesc": "Protege aliados nos quais você conjurou habilidades e aliados muito próximos a você. Se você ou um Campeão aliado protegido sofrer dano com base no nível, ambos recebem um escudo.",
+    "longDesc": "<i>Protege</i> por 2.5s aliados a até 350 unidades de distância de você e aliados nos quais você tenha conjurado habilidades. Durante a <i>Proteção</i>, caso você ou o aliado sofram uma quantidade significativa de dano ao longo da duração de <i>Guardião</i>, ambos ganham um escudo por 1.5s.<br><br>Tempo de Recarga: <scaleLevel>90s – 40</scaleLevel>s<br>Escudo: <scaleLevel>45 – 120</scaleLevel> + <scaleAP>12.5%</scaleAP> do seu Poder de Habilidade + <scalehealth>8%</scalehealth> da sua Vida adicional.<br>Limiar de acionamento: <scaleLevel>90 – 250</scaleLevel> de dano pós-mitigação.",
+    "recommendationDescriptor": "Escudo a aliados",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Guardian/Guardian.png",
     "endOfGameStatDescs": [
-      "Total Shield Strength: @eogvar1@"
+      "Resistência total do escudo: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8138,
-    "name": "Eyeball Collection",
+    "name": "Globos Oculares",
     "majorChangePatchVersion": "",
-    "tooltip": "Collect eyeballs for champion takedowns. Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power, per eyeball collected. <br><br>Upon completing your collection at 10 eyeballs, additionally gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage, or 10 Ability Power.<br><br>Collect 1 eyeball per champion takedown.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Eyeballs Collected: @f3@/10",
-    "shortDesc": "Collect eyeballs for champion <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword>. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each eyeball plus bonus upon collection completion.",
-    "longDesc": "Collect eyeballs for champion takedowns. Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power, per eyeball collected. <br><br>Upon completing your collection at 10 eyeballs, additionally gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage, or 10 Ability Power.<br><br>Collect 1 eyeball per champion takedown.",
+    "tooltip": "Coleta Globos Oculares ao abater Campeões e recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade por Globo Ocular coletado. <br><br>Ao completar sua coleção de 10 Globos Oculares, você também recebe mais um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 6 de Dano de Ataque ou 10 de Poder de Habilidade.<br><br>Coleta 1 Globo Ocular por abates de Campeões.<br><hr><br>Atributos recebidos: <scaleAD>+@f2@ de Dano de Ataque</scaleAD><br>Globos Oculares coletados: @f3@/10",
+    "shortDesc": "Coleta Globos Oculares ao <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>abater</lol-uikit-tooltipped-keyword> Campeões e recebe permanentemente DdA ou PdH <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptativos</lol-uikit-tooltipped-keyword> por cada Globo Ocular coletado, além de adicionais ao completar a coleção.",
+    "longDesc": "Coleta Globos Oculares ao abater Campeões e recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade por Globo Ocular coletado. <br><br>Ao completar sua coleção de 10 Globos Oculares, você também recebe mais um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 6 de Dano de Ataque ou 10 de Poder de Habilidade.<br><br>Coleta 1 Globo Ocular por abates de Campeões.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/EyeballCollection/EyeballCollection.png",
     "endOfGameStatDescs": [
-      "Total Bonus AD/AP: @eogvar1@"
+      "Total de PdH/DdA adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 5,
@@ -1145,11 +1145,11 @@
   },
   {
     "id": 8127,
-    "name": "The Twisted Surgeon",
+    "name": "O Cirurgião Perturbado",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathDomination>Domination</pathDomination> + <pathPrecision>Precision</pathPrecision><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD><br>+0% Attack Speed",
-    "shortDesc": "<pathBonus><pathDomination>Domination</pathDomination> + <pathPrecision>Precision</pathPrecision> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>+0% Attack Speed",
+    "tooltip": "<pathDomination>Dominação</pathDomination> + <pathPrecision>Precisão</pathPrecision><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD><br>+0% de Velocidade de Ataque",
+    "shortDesc": "<pathBonus>Efeito do Conjunto <pathDomination>Dominação</pathDomination> + <pathPrecision>Precisão</pathPrecision></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>+0% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1157,15 +1157,15 @@
   },
   {
     "id": 8143,
-    "name": "Sudden Impact",
+    "name": "Impacto Repentino",
     "majorChangePatchVersion": "",
-    "tooltip": "After exiting stealth or using a dash, leap, blink, or teleport, dealing any damage to a champion grants you 9 Lethality and 7 Magic Penetration for 5s.<br><br>Cooldown: 4s<br><hr><br>Bonus champion damage: @f1@",
-    "shortDesc": "Gain a burst of Lethality and Magic Penetration after using a dash, leap, blink, teleport, or when leaving stealth.",
-    "longDesc": "After exiting stealth or using a dash, leap, blink, or teleport, dealing any damage to a champion grants you 9 Lethality and 7 Magic Penetration for 5s.<br><br>Cooldown: 4s",
+    "tooltip": "Depois de sair da furtividade ou usar um avanço, salto, teletransporte ou teleporte, causar dano a um Campeão concede 9 de Letalidade e 7 de Penetração Mágica por 5s.<br><br>Tempo de Recarga: 4s<br><hr><br>Dano adicional contra Campeões: @f1@",
+    "shortDesc": "Depois de usar um avanço, salto, teletransporte, teleporte ou ao sair da furtividade, você ganha uma quantidade súbita de Letalidade e Penetração Mágica.",
+    "longDesc": "Depois de sair da furtividade ou usar um avanço, salto, teletransporte ou teleporte, causar dano a um Campeão concede 9 de Letalidade e 7 de Penetração Mágica por 5s.<br><br>Tempo de Recarga: 4s",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png",
     "endOfGameStatDescs": [
-      "Bonus Damage: @eogvar1@"
+      "Dano adicional: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 8,
@@ -1174,15 +1174,15 @@
   },
   {
     "id": 8345,
-    "name": "Biscuit Delivery",
+    "name": "Entrega de Biscoitos",
     "majorChangePatchVersion": "",
-    "tooltip": "Biscuit Delivery: Gain a Total Biscuit of Everlasting Will every 2 mins, until 6 min.<br><br>Biscuits restore 8% of your missing health and mana. Consuming or selling a Biscuit permanently increases your mana cap by 40. <br><br><i>Manaless:</i> Champions without mana restore 12% missing health instead.<br><hr><br>Biscuits Gained: @f1@/@f2@",
-    "shortDesc": "Gain a free Biscuit every 2 min, until 6 min. Consuming or selling a Biscuit permanently increases your max mana and restores health and mana.",
-    "longDesc": "Biscuit Delivery: Gain a Total Biscuit of Everlasting Will every 2 mins, until 6 min.<br><br>Biscuits restore 8% of your missing health and mana. Consuming or selling a Biscuit permanently increases your mana cap by 40. <br><br><i>Manaless:</i> Champions without mana restore 12% missing health instead.",
+    "tooltip": "Entrega de Biscoitos: Recebe um Biscoito total da determinação eterna a cada 2min, até o minuto 6.<br><br>Biscoitos restauram 8% de sua Vida e Mana perdidas. Consumir ou vender um Biscoito aumenta permanentemente seu limite de Mana em 40. <br><br><i>Sem Mana:</i> Campeões sem Mana restauram 12% da Vida perdida.<br><hr><br>Biscoitos ganhos: @f1@ / @f2@",
+    "shortDesc": "Ganha um Biscoito grátis a cada 2min, até o minuto 6. Consumir ou vender Biscoitos aumenta permanentemente seu Mana máximo e restaura Vida e Mana.",
+    "longDesc": "Entrega de Biscoitos: Recebe um Biscoito total da determinação eterna a cada 2min, até o minuto 6.<br><br>Biscoitos restauram 8% de sua Vida e Mana perdidas. Consumir ou vender um Biscoito aumenta permanentemente seu limite de Mana em 40. <br><br><i>Sem Mana:</i> Campeões sem Mana restauram 12% da Vida perdida.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png",
     "endOfGameStatDescs": [
-      "Biscuits Received: @eogvar1@"
+      "Biscoitos recebidos: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 5,
@@ -1191,15 +1191,15 @@
   },
   {
     "id": 8444,
-    "name": "Second Wind",
+    "name": "Ventos Revigorantes",
     "majorChangePatchVersion": "",
-    "tooltip": "After taking damage from an enemy champion, heal for 4% of your missing health +3 over 10s.<br><hr><br><scaleAD>Total healing: @f1@</scaleAD>",
-    "shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
-    "longDesc": "After taking damage from an enemy champion, heal for 4% of your missing health +3 over 10s.",
+    "tooltip": "Após receber dano de um Campeão inimigo, recebe cura equivalente a 4% da Vida perdida +3 por 10s.<br><hr><br><scaleAD>Total de cura: @f1@</scaleAD>",
+    "shortDesc": "Após receber dano de um Campeão inimigo, um pouco da Vida perdida é restaurada ao longo do tempo. ",
+    "longDesc": "Após receber dano de um Campeão inimigo, recebe cura equivalente a 4% da Vida perdida +3 por 10s.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/SecondWind/SecondWind.png",
     "endOfGameStatDescs": [
-      "Total Healing: @eogvar1@"
+      "Total de cura: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {
       "kHealing": 10
@@ -1207,11 +1207,11 @@
   },
   {
     "id": 8205,
-    "name": "The Incontestable Spellslinger",
+    "name": "O Conjurador Incontestável",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathSorcery>Sorcery</pathSorcery> + <pathPrecision>Precision</pathPrecision><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD><br>+0% Attack Speed",
-    "shortDesc": "<pathBonus><pathSorcery>Sorcery</pathSorcery> + <pathPrecision>Precision</pathPrecision> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>+0% Attack Speed",
+    "tooltip": "<pathSorcery>Feitiçaria</pathSorcery> + <pathPrecision>Precisão</pathPrecision><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD><br>+0% de Velocidade de Ataque",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathSorcery>Feitiçaria</pathSorcery> + <pathPrecision>Precisão</pathPrecision></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>+0% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1219,47 +1219,47 @@
   },
   {
     "id": 8437,
-    "name": "Grasp of the Undying",
+    "name": "Aperto dos Mortos-Vivos",
     "majorChangePatchVersion": "",
-    "tooltip": "Every 4s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to 3.5% of your max health</li><li>Heals you for 3 + 1.2% of your max health</li><li>Permanently increase your health by 7</li><br><rules><i>Ranged Champions:</i> Damage, healing, and permanent health gained reduced by 40%.</rules><br><br>Damage to Champions: <scaleHealth>@f1@</scaleHealth><br>Total Healing: <scaleHealth>@f2@</scaleHealth><br>Times Used: @f3@",
-    "shortDesc": "Every 4s your next attack on a champion deals bonus magic damage, heals you, and permanently increases your health.",
-    "longDesc": "Every 4s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to 3.5% of your max health</li><li>Heals you for 3 + 1.2% of your max health</li><li>Permanently increase your health by 7</li><br><rules><i>Ranged Champions:</i> Damage, healing, and permanent health gained reduced by 40%.</rules><br>",
-    "recommendationDescriptor": "Drain Opponents",
+    "tooltip": "A cada 4s em combate, seu próximo ataque básico contra um Campeão irá:<li>Causar Dano Mágico adicional equivalente a 3.5% da sua Vida máxima</li><li>Curar você em 3 + 1.2% da sua Vida máxima</li><li>Aumentar permanentemente sua Vida em 7</li><br><rules><i>Campeões de ataque à distância:</i> o dano, a cura e a Vida permanente recebidos são reduzidos em 40%.</rules><br><br>Dano a Campeões: <scaleHealth>@f1@</scaleHealth><br>Total de cura: <scaleHealth>@f2@</scaleHealth><br>Número de usos: @f3@",
+    "shortDesc": "A cada 4s, seu próximo ataque contra um Campeão causa Dano Mágico adicional, cura você e aumenta permanentemente sua Vida.",
+    "longDesc": "A cada 4s em combate, seu próximo ataque básico contra um Campeão irá:<li>Causar Dano Mágico adicional equivalente a 3.5% da sua Vida máxima</li><li>Curar você em 3 + 1.2% da sua Vida máxima</li><li>Aumentar permanentemente sua Vida em 7</li><br><rules><i>Campeões de ataque à distância:</i> o dano, a cura e a Vida permanente recebidos são reduzidos em 40%.</rules><br>",
+    "recommendationDescriptor": "Drenar oponentes",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
     "endOfGameStatDescs": [
-      "Total damage: @eogvar1@",
-      "Total Healing: @eogvar2@"
+      "Total de dano: @eogvar1@",
+      "Total de cura: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 9923,
-    "name": "Hail of Blades",
+    "name": "Chuva de Lâminas",
     "majorChangePatchVersion": "8.11",
-    "tooltip": "Gain @f3@% Attack Speed when you attack an enemy champion for up to 3 attacks. <br><br>Cooldown: 12s.<br><hr><br>Hail of Blades attacks: @f1@<br>Percentage of Hail attacks landed: @f2@%<br><br><rules>Basic Attack resets increase the attack limit by 1.<br>Allows you to temporarily exceed the attack speed limit.</rules>",
-    "shortDesc": "Gain a large amount of Attack Speed for the first 3 attacks made against enemy champions.",
-    "longDesc": "Gain 110% Attack Speed when you attack an enemy champion for up to 3 attacks.<br><br>No more than 3s can elapse between attacks or this effect will end.<br><br>Cooldown: 12s.<br><br><rules>Attack resets increase the attack limit by 1.<br>Allows you to temporarily exceed the attack speed limit.</rules>",
-    "recommendationDescriptor": "Flurry of Attacks",
+    "tooltip": "Recebe @f3@% de Velocidade de Ataque ao atacar um Campeão inimigo por até 3 ataques. <br><br>Tempo de Recarga: 12s.<br><hr><br>Ataques com Chuva de Lâminas: @f1@<br>Porcentagem de ataques certeiros com Chuva de Lâminas: @f2@%<br><br><rules>Reinicializações de ataques básicos aumentam o limite de ataques em 1.<br>Permite exceder temporariamente o limite de Velocidade de Ataque.</rules>",
+    "shortDesc": "Concede uma grande quantidade de Velocidade de Ataque pelos primeiros 3 ataques contra Campeões inimigos.",
+    "longDesc": "Recebe 110% de Velocidade de Ataque ao atacar um Campeão inimigo por até 3 ataques.<br><br>Caso o intervalo entre os ataques supere 3s, o efeito acabará.<br><br>Tempo de Recarga: 12s.<br><br><rules>Reinicializações de ataques aumentam o limite de ataques em 1.<br>Permite exceder temporariamente o limite de Velocidade de Ataque.</rules>",
+    "recommendationDescriptor": "Turbilhão de ataques",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png",
     "endOfGameStatDescs": [
-      "Attacks made with extra attack speed: @eogvar1@",
-      "Percentage of Hail attacks landed: @eogvar2@%"
+      "Ataques feitos com Velocidade de Ataque adicional: @eogvar1@",
+      "Porcentagem de ataques certeiros com Chuva de Lâminas: @eogvar2@%"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8429,
-    "name": "Conditioning",
+    "name": "Condicionamento",
     "majorChangePatchVersion": "9.9",
-    "tooltip": "After 12 min gain +8 Armor and +8 Magic Resist and increase your bonus Armor and Magic Resist by 3%.<br><br>Armor Gained: @f3@ <scaleArmor>(+@f4@)</scaleArmor><br>Resist Gained: @f5@ <scaleMR>(+@f6@)</scaleMR>",
-    "shortDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your bonus Armor and Magic Resist by 3%.",
-    "longDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your bonus Armor and Magic Resist by 3%.",
+    "tooltip": "Depois de 12min, recebe +8 de Armadura e +8 de Resistência Mágica, e aumenta sua Armadura e Resistência Mágica em 3%.<br><br>Armadura ganha: @f3@ <scaleArmor>(+@f4@)</scaleArmor><br>Resistência ganha: @f5@ <scaleMR>(+@f6@)</scaleMR>",
+    "shortDesc": "Depois de 12min, recebe +8 de Armadura e +8 de Resistência Mágica, e aumenta sua Armadura e Resistência Mágica em 3%.",
+    "longDesc": "Depois de 12min, recebe +8 de Armadura e +8 de Resistência Mágica, e aumenta sua Armadura e Resistência Mágica em 3%.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Conditioning/Conditioning.png",
     "endOfGameStatDescs": [
-      "Percent of game active: @eogvar1@%",
-      "Total Bonus Armor: @eogvar2@",
-      "Total Bonus Magic Resist: @eogvar3@"
+      "Porcentagem de jogo ativo: @eogvar1@%",
+      "Total de Armadura adicional: @eogvar2@",
+      "Total de Resistência Mágica adicional: @eogvar3@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 10
@@ -1267,29 +1267,29 @@
   },
   {
     "id": 8124,
-    "name": "Predator",
+    "name": "Predador",
     "majorChangePatchVersion": "",
-    "tooltip": "Enchants your boots with the active effect <font color='#c60300'>Predator</font>.<br><br>Gain increased <speed>Move Speed</speed>, ramping up to <speed>@MaxMSLevelCalc@ Move Speed</speed> over 1.5 seconds, while chasing enemy champions. Damaging attacks or abilities to champions end this effect, dealing <scaleLevel>@f3@</scaleLevel> <scaleAP>(+@f5@)</scaleAP> <scaleAD>(+@f4@)</scaleAD> bonus damage. <br><br>Cooldown: <scaleLevel>@f7@</scaleLevel>s<br><hr><br>Damage Dealt To Champions: @f1@",
-    "shortDesc": "Add an active effect to your boots that grants a large boost of <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> and causes your next attack or ability to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
-    "longDesc": "Enchants your boots with the active effect '<font color='#c60300'>Predator</font>.'<br><br>Gain increased Move Speed, ramping up to 25-50% Move Speed over 1 second, while chasing enemy champions. After ramping up, damaging attacks or abilities to champions end this effect, dealing 20-180 (+<scaleAD>0.25</scaleAD> bonus AD)(+<scaleAP>0.15</scaleAP> AP) bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br><br>Cooldown: 120s-60s.",
-    "recommendationDescriptor": "Out of Combat Movement",
+    "tooltip": "Encanta suas botas com o efeito ativo <font color='#c60300'>Predador</font>.<br><br>Recebe um aumento de <speed>Velocidade de Movimento</speed>, chegando a <speed>@MaxMSLevelCalc@ de Velocidade de Movimento</speed> por 1.5s enquanto estiver perseguindo Campeões inimigos. Ataques ou Habilidades de dano a Campeões encerram este efeito e causam <scaleLevel>@f3@</scaleLevel> <scaleAP>(+@f5@)</scaleAP> <scaleAD>(+@f4@)</scaleAD> de dano adicional. <br><br>Tempo de Recarga: <scaleLevel>@f7@</scaleLevel>s<br><hr><br>Dano causado a Campeões: @f1@",
+    "shortDesc": "Adiciona um efeito ativo às suas botas que concede um enorme aumento de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>VdM</lol-uikit-tooltipped-keyword> e faz com que seu próximo ataque ou habilidade cause <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
+    "longDesc": "Encanta suas botas com o efeito ativo ''<font color='#c60300'>Predador</font>''.<br><br>Recebe Velocidade de Movimento aumentada, chegando a 25% - 50% ao longo de 1s enquanto estiver perseguindo Campeões inimigos. Após chegar ao ápice, Ataques ou Habilidades de dano a Campeões encerram este efeito e causam 20 - 180 (+<scaleAD>0,25</scaleAD> de DdA adicional) (+<scaleAP>0,15</scaleAP> de PdH) de <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword> adicional.<br><br>Tempo de Recarga: 120s-60s.",
+    "recommendationDescriptor": "Movimento fora de combate",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/Predator/Predator.png",
     "endOfGameStatDescs": [
-      "Total Damage to Champions: @eogvar1@"
+      "Total de dano a Campeões: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8233,
-    "name": "Absolute Focus",
+    "name": "Foco Absoluto",
     "majorChangePatchVersion": "",
-    "tooltip": "While above 70% health, gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level). <br><br>Grants 1.8 Attack Damage or 3 Ability Power at level 1. <br><hr><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
-    "shortDesc": "While above 70% health, gain extra <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
-    "longDesc": "While above 70% health, gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level). <br><br>Grants 1.8 Attack Damage or 3 Ability Power at level 1. ",
+    "tooltip": "Acima de 70% de Vida, recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até 18 de Dano de Ataque ou 30 de Poder de Habilidade (com base no nível). <br><br>Concede 1.8 de Dano de Ataque ou 3 de Poder de Habilidade no nível 1. <br><hr><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD>",
+    "shortDesc": "Acima de 70% de Vida, recebe <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>Dano Adaptativo</lol-uikit-tooltipped-keyword> adicional.",
+    "longDesc": "Acima de 70% de Vida, recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de até 18 de Dano de Ataque ou 30 de Poder de Habilidade (com base no nível). <br><br>Concede 1.8 de Dano de Ataque ou 3 de Poder de Habilidade no nível 1. ",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png",
     "endOfGameStatDescs": [
-      "Total time active: @eogvar1@:@eogvar2@"
+      "Total de tempo ativo: @eogvar1@:@eogvar2@s"
     ],
     "recommendationDescriptorAttributes": {
       "kBurstDamage": 5,
@@ -1298,11 +1298,11 @@
   },
   {
     "id": 8007,
-    "name": "The Savant",
+    "name": "O Sábio",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathPrecision>Precision</pathPrecision> + <pathInspiration>Inspiration</pathInspiration><br>+0% Attack Speed",
-    "shortDesc": "<pathBonus><pathPrecision>Precision</pathPrecision> + <pathInspiration>Inspiration</pathInspiration> Set Bonus</pathBonus>",
-    "longDesc": "+0% Attack Speed",
+    "tooltip": "<pathPrecision>Precisão</pathPrecision> + <pathInspiration>Inspiração</pathInspiration><br>+0% de Velocidade de Ataque",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathPrecision>Precisão</pathPrecision> + <pathInspiration>Inspiração</pathInspiration></pathBonus>",
+    "longDesc": "+0% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1310,16 +1310,16 @@
   },
   {
     "id": 8136,
-    "name": "Zombie Ward",
+    "name": "Sentinela Zumbi",
     "majorChangePatchVersion": "8.14",
-    "tooltip": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemy Wards cause friendly Zombie Wards to sprout from their corpses.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Zombie Ward spawned, up to 10. <br><br>After spawning 10 Zombie Wards, additionally gain 10 adaptive force.<br><br>Zombie Wards are visible, last for 120s and do not count towards your ward limit.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Zombie Wards raised: @f1@",
-    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemy Wards cause friendly Zombie Wards to sprout from their corpses. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each Zombie Ward spawned plus bonus upon completion.",
-    "longDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemy Wards cause friendly Zombie Wards to sprout from their corpses.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Zombie Ward spawned, up to 10. <br><br>After spawning 10 Zombie Wards, additionally gain 10 adaptive force.<br><br>Zombie Wards are visible, last for 120s and do not count towards your ward limit.",
+    "tooltip": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> de sentinelas inimigas fazem com que unidades de Sentinela Zumbi aliadas cresçam do cadáver.<br><br>Recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade para cada Sentinela Zumbi posicionada, até um máximo de 10. <br><br>Após surgirem 10 unidades de Sentinela Zumbi, recebe adicionalmente 10 de força adaptativa.<br><br>Sentinelas Zumbis são visíveis, duram 120s e não afetam seu limite de sentinelas.<br><hr><br>Atributos recebidos: <scaleAD>+@f2@ de Dano de Ataque</scaleAD><br>Sentinelas Zumbis posicionadas: @f1@",
+    "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> de sentinelas inimigas fazem com que unidades de Sentinela Zumbi aliadas cresçam do cadáver. Recebe permanentemente DdA ou PdH <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptativo</lol-uikit-tooltipped-keyword> por cada Sentinela Zumbi posicionada, além de adicionais ao completar a coleção.",
+    "longDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Abates</lol-uikit-tooltipped-keyword> de sentinelas inimigas fazem com que unidades de Sentinela Zumbi aliadas cresçam do cadáver.<br><br>Recebe um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 1.2 de Dano de Ataque ou 2 de Poder de Habilidade para cada Sentinela Zumbi posicionada, até um máximo de 10. <br><br>Após surgirem 10 unidades de Sentinela Zumbi, recebe adicionalmente 10 de força adaptativa.<br><br>Sentinelas Zumbis são visíveis, duram 120s e não afetam seu limite de sentinelas.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Domination/ZombieWard/ZombieWard.png",
     "endOfGameStatDescs": [
-      "Wards spawned: @eogvar1@",
-      "Adaptive Force Gained: @eogvar2@"
+      "Sentinelas posicionadas: @eogvar1@",
+      "Força Adaptativa recebida: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kUtility": 10
@@ -1327,11 +1327,11 @@
   },
   {
     "id": 8208,
-    "name": "The Ancient One",
+    "name": "O Ancião",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathSorcery>Sorcery</pathSorcery> + <pathResolve>Resolve</pathResolve><br>+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD><br>+0-0 Health based on level",
-    "shortDesc": "<pathBonus><pathSorcery>Sorcery</pathSorcery> + <pathResolve>Resolve</pathResolve> Set Bonus</pathBonus>",
-    "longDesc": "+0 Attack Damage or +0 Ability Power, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive</font></lol-uikit-tooltipped-keyword><br>+0-0 Health based on level",
+    "tooltip": "<pathSorcery>Feitiçaria</pathSorcery> + <pathResolve>Determinação</pathResolve><br>+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>Efeito atual: <scaleAD>+@f1@ de <scaleAD>Dano de Ataque</scaleAD></scaleAD><br>+0 - 0 de Vida com base no nível",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathSorcery>Feitiçaria</pathSorcery> + <pathResolve>Determinação</pathResolve></pathBonus>",
+    "longDesc": "+0 de Dano de Ataque ou +0 de Poder de Habilidade <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptativo</font></lol-uikit-tooltipped-keyword><br>+0 - 0 de Vida com base no nível",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1339,11 +1339,11 @@
   },
   {
     "id": 8347,
-    "name": "Cosmic Insight",
+    "name": "Perspicácia Cósmica",
     "majorChangePatchVersion": "",
-    "tooltip": "+<attention>18</attention> Summoner Spell Haste<br>+<attention>10</attention> Item Haste",
-    "shortDesc": "+<attention>18</attention> Summoner Spell Haste<br>+<attention>10</attention> Item Haste",
-    "longDesc": "+<attention>18</attention> Summoner Spell Haste<br>+<attention>10</attention> Item Haste",
+    "tooltip": "+<attention>18</attention> de Aceleração de Feitiço de Invocador<br>+<attention>10</attention> de Aceleração de Item",
+    "shortDesc": "+<attention>18</attention> de Aceleração de Feitiço de Invocador<br>+<attention>10</attention> de Aceleração de Item",
+    "longDesc": "+<attention>18</attention> de Aceleração de Feitiço de Invocador<br>+<attention>10</attention> de Aceleração de Item",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png",
     "endOfGameStatDescs": [
@@ -1355,11 +1355,11 @@
   },
   {
     "id": 8472,
-    "name": "Chrysalis",
+    "name": "Crisálida",
     "majorChangePatchVersion": "8.6",
-    "tooltip": "Start the game with 40 bonus health. When you get 4 takedowns, convert that health for an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage or 10 Ability Power.<br><hr><br>Takedowns: @f1@/@f2@<br>Health Given: @f3@<br>Bonus <scaleAD>Attack Damage</scaleAD> Given: @f4@",
-    "shortDesc": "Start the game with 40 bonus health. When you get 4 takedowns, convert that health for an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage or 10 Ability Power.",
-    "longDesc": "Start the game with 40 bonus health. When you get 4 takedowns, convert that health for an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage or 10 Ability Power.",
+    "tooltip": "Começa a partida com 40 de Vida adicional. Ao alcançar 4 abates, converte essa Vida em um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 6 de Dano de Ataque ou 10 de Poder de Habilidade.<br><hr><br>Abates: @f1@/@f2@<br>Vida concedida: @f3@<br><scaleAD>Dano de Ataque</scaleAD> adicional concedido: @f4@",
+    "shortDesc": "Começa a partida com 40 de Vida adicional. Ao alcançar 4 abates, converte essa Vida em um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 6 de Dano de Ataque ou 10 de Poder de Habilidade.",
+    "longDesc": "Começa a partida com 40 de Vida adicional. Ao alcançar 4 abates, converte essa Vida em um adicional <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptativo</font></lol-uikit-tooltipped-keyword> de 6 de Dano de Ataque ou 10 de Poder de Habilidade.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Resolve/Chrysalis/Chrysalis.png",
     "endOfGameStatDescs": [],
@@ -1367,25 +1367,25 @@
   },
   {
     "id": 8229,
-    "name": "Arcane Comet",
+    "name": "Cometa Arcano",
     "majorChangePatchVersion": "",
-    "tooltip": "Damaging a champion with an ability hurls a comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.<br><rules><br>Cooldown Reduction:<br>Single Target: 20%.<br>Area of Effect: 10%.<br>Damage over Time: 5%.<br></rules><br>Damage: <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>)<br>Cooldown: @f2@s<br><hr><br>You have hit with @f3@% of comets fired, for a total of @f1@ damage to champions.",
-    "shortDesc": "Damaging a champion with an ability hurls a damaging comet at their location.",
-    "longDesc": "Damaging a champion with an ability hurls a comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Adaptive Damage</font></lol-uikit-tooltipped-keyword>: 30 - 130 based on level (<scaleAP>+0.05 AP</scaleAP> and <scaleAD>+0.1 bonus AD</scaleAD>)<br>Cooldown: 20 - 8s<br><rules><br>Cooldown Reduction:<br>Single Target: 20%.<br>Area of Effect: 10%.<br>Damage over Time: 5%.<br></rules>",
-    "recommendationDescriptor": "Ability Damage",
+    "tooltip": "Ao causar dano a um Campeão com uma habilidade, um cometa é lançado onde ele estiver ou, se Cometa Arcano estiver em Tempo de Recarga, o tempo é reduzido.<br><rules><br>Redução do Tempo de Recarga:<br>Alvo único: 20%.<br>Área de ação: 10%.<br>Dano ao longo do tempo: 5%.<br></rules><br>Dano: <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>)<br>Tempo de Recarga: @f2@s<br><hr><br>Você acertou @f3@% dos cometas arremessados, causando um total de @f1@ de dano a Campeões.",
+    "shortDesc": "Ao causar dano a um Campeão com uma habilidade, um cometa é lançado onde ele estiver.",
+    "longDesc": "Ao causar dano a um Campeão com uma habilidade, um cometa é lançado onde ele estiver ou, se Cometa Arcano estiver em Tempo de Recarga, seu tempo é reduzido.<br><br><lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>Dano Adaptativo</font></lol-uikit-tooltipped-keyword>: de 30 a 130 com base no nível (<scaleAP>+0.05 de PdH</scaleAP> e <scaleAD>+0.1 de DdA adicional</scaleAD>)<br>Tempo de Recarga: 20s a 8s<br><rules><br>Redução do Tempo de Recarga:<br>Alvo único: 20%.<br>Área de ação: 10%.<br>Dano ao longo do tempo: 5%.<br></rules>",
+    "recommendationDescriptor": "Dano de Habilidade",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png",
     "endOfGameStatDescs": [
-      "Total Damage Dealt: @eogvar1@"
+      "Total de dano causado: @eogvar1@"
     ],
     "recommendationDescriptorAttributes": {}
   },
   {
     "id": 8344,
-    "name": "The Elegant Duelist ",
+    "name": "A Duelista Elegante ",
     "majorChangePatchVersion": "",
-    "tooltip": "<pathInspiration>Inspiration</pathInspiration> + <pathPrecision>Precision</pathPrecision><br>+0% Attack Speed",
-    "shortDesc": "<pathBonus><pathInspiration>Inspiration</pathInspiration> + <pathPrecision>Precision</pathPrecision> Set Bonus</pathBonus>",
-    "longDesc": "+0% Attack Speed",
+    "tooltip": "<pathInspiration>Inspiração</pathInspiration> + <pathPrecision>Precisão</pathPrecision><br>+0% de Velocidade de Ataque",
+    "shortDesc": "<pathBonus>Bônus do Conjunto <pathInspiration>Inspiração</pathInspiration> + <pathPrecision>Precisão</pathPrecision></pathBonus>",
+    "longDesc": "+0% de Velocidade de Ataque",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/RunesIcon.png",
     "endOfGameStatDescs": [],
@@ -1393,15 +1393,15 @@
   },
   {
     "id": 9101,
-    "name": "Overheal",
+    "name": "Cura Excessiva",
     "majorChangePatchVersion": "",
-    "tooltip": "Excess healing on you becomes a shield for up to <scaleLevel>@OverhealShieldCap@</scaleLevel> Health.<br><br>Shield is built up from <scaleLevel>@f6@%</scaleLevel> of excess healing from yourself or any ally.<br><hr><br><b>Total damage blocked: <scaleAD>@f1@</scaleAD></b>",
-    "shortDesc": "Excess healing on you becomes a shield.",
-    "longDesc": "Excess healing on you becomes a shield for 11% of your max Health.<br><br>Shield is built up from 20 to 100% of excess healing from yourself or any ally.",
+    "tooltip": "Sua cura excedente é convertida em um Escudo de até <scaleLevel>@OverhealShieldCap@</scaleLevel> de Vida.<br><br>O Escudo converte <scaleLevel>@f6@%</scaleLevel> da cura excedente concedida por você ou qualquer aliado.<br><hr><br><b>Total de dano bloqueado: <scaleAD>@f1@</scaleAD></b>",
+    "shortDesc": "A cura excedente sobre você é convertida em um escudo.",
+    "longDesc": "Sua cura excedente é convertida em um Escudo de 11% da sua Vida máxima.<br><br>O Escudo converte 20% - 100% do excedente da cura concedida por você ou qualquer aliado.",
     "recommendationDescriptor": "",
     "iconPath": "/lol-game-data/assets/v1/perk-images/Styles/Precision/Overheal.png",
     "endOfGameStatDescs": [
-      "Total Shielding: @eogvar2@"
+      "Escudo total: @eogvar2@"
     ],
     "recommendationDescriptorAttributes": {
       "kDurability": 7,

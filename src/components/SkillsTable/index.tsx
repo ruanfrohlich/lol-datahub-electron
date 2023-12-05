@@ -49,10 +49,7 @@ export default function SkillsTable({
                       >
                         <img
                           className="w-[100%] h-[100%] object-cover"
-                          src={`https://cdn.mobalytics.gg/assets/lol/images/dd/champions/abilities/${
-                            capitalized(query.id as string) +
-                            skill.toUpperCase()
-                          }.png?V3`}
+                          src={`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/characters/${champion.name.toLowerCase()}/hud/icons2d/${champion.name.toLowerCase()}_${skill}.png`}
                           alt={skill}
                         ></img>
                         <span className="text-white text-[12px] bg-primary w-[15px] h-[15px] absolute bottom-0 right-0 font-bold text-center pointer-events-none">

@@ -12,6 +12,7 @@ import { TChampion } from '@/interfaces';
 import { ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { ParsedUrlQuery } from 'querystring';
 import champBuild from '@/cache-files/nasus-top.json';
+import Runes from '@/components/Runes';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = champions.map((champion) => ({
@@ -102,7 +103,7 @@ export default function ChampionPage({
                     <span key={`spell_${spell}`} className="group relative">
                       <img
                         className="w-[60px] h-[60px] border border-secondary rounded"
-                        src={`https://cdn.mobalytics.gg/assets/lol/images/dd/summoner-spells/Summoner${spell}.png`}
+                        src={`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/data/spells/icons2d/summoner_${spell.toLowerCase()}.png`}
                         alt={spell}
                       />
                       <span className="text-white text-[12px] bg-primary w-[15px] h-[15px] absolute bottom-0 right-0 font-bold text-center pointer-events-none">
@@ -114,7 +115,10 @@ export default function ChampionPage({
                 })}
               </div>
               <div className="col-span-3 xl:col-span-1 border border-secondary">
-                Runes
+                <Runes
+                  primaryRunesList={[8000, 8010, 9111, 9105, 8299]}
+                  secondaryRunesList={[8400, 8473, 8453]}
+                />
               </div>
             </div>
           </div>

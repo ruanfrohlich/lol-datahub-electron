@@ -1,6 +1,7 @@
 import { ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { Tooltip } from '@/components';
 import { useEffect, useRef, useState } from 'react';
+import items from '@/data/items.json'
 
 interface Props {
   champion: string;
@@ -69,7 +70,7 @@ export default function ChampionBuild({
                         </Tooltip>
                         <img
                           className="w-[30px] h-[30px] object-cover object-center rounded-sm border-2 border-secondary"
-                          src={`https://cdn.mobalytics.gg/assets/lol/images/dd/game-items/${item.id}.png?v04`}
+                          src={`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/${items.find((object) => object.id == item.id).iconPath.split('/')[6].toLocaleLowerCase()}`}
                           alt={item.name}
                         />
                       </span>
