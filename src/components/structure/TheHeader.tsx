@@ -1,7 +1,7 @@
-import { Champion } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
+import type { TChampion } from '@/interfaces';
 import Link from 'next/link';
 import { LegacyRef, createRef, forwardRef, useEffect, useState } from 'react';
-import { champions as championList } from '@/data';
+import championList from '@/data/champions.json';
 import { useRouter } from 'next/router';
 import { useAppProvider } from '../common/AppProvider';
 
@@ -9,8 +9,8 @@ const TheHeader = forwardRef(function TheHeader(
   props,
   ref: LegacyRef<HTMLElement>
 ) {
-  const [selectedChampion, setSelectedChampion] = useState<Champion>(null);
-  const [champions, setChampions] = useState<Champion[]>(null);
+  const [selectedChampion, setSelectedChampion] = useState<TChampion>(null);
+  const [champions, setChampions] = useState<TChampion>(null);
   const [focus, setFocus] = useState<boolean>(false);
   const [name, setName] = useState<string>(null);
   const router = useRouter();
@@ -32,10 +32,11 @@ const TheHeader = forwardRef(function TheHeader(
     const list = championList.filter((champ) =>
       champ.name.toUpperCase().includes(championName.toUpperCase())
     );
+
     setChampions(list);
   };
 
-  const handleChampion = async (champion: Champion): Promise<void> => {
+  const handleChampion = async (champion: TChampion): Promise<void> => {
     setFocus(false);
     setSelectedChampion(champion);
     setName(champion.name);
@@ -47,14 +48,21 @@ const TheHeader = forwardRef(function TheHeader(
       };
     });
 
-    router.push(`/champion/${champion.name.toLowerCase()}`).then(() => {
-      setGlobalState((prevState) => {
-        return {
-          ...prevState,
-          openModal: false,
-        };
+    router
+      .push({
+        pathname: '/champion/[id]',
+        query: {
+          id: champion.id,
+        },
+      })
+      .then(() => {
+        setGlobalState((prevState) => {
+          return {
+            ...prevState,
+            openModal: false,
+          };
+        });
       });
-    });
   };
 
   useEffect(() => {
@@ -71,56 +79,64 @@ const TheHeader = forwardRef(function TheHeader(
   }, [wrapperRef]);
 
   return (
-    <header className="px-2 pt-2 pb-0" ref={ref}>
-      <div className="league-border shadow-lg bg-primary">
-        <div className="container flex justify-between items-center py-3 mx-auto">
-          <Link
-            href="/"
-            className="text-white text-xl font-bold bg-gradient-to-t to-0% from-secondary from-50% px-1"
-          >
-            LoL DataHub
-          </Link>
-          <div className="relative" ref={wrapperRef}>
-            <div className="relative rounded-md">
-              <input
-                onChange={(el) => handleInput(el.currentTarget.value)}
-                type="text"
-                name="champ-name"
-                id="champ-name"
-                className={
-                  'block bg-primary w-full rounded-md border border-secondary py-1.5 pl-3 pr-20 min-w-[340px] text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6'
-                }
-                placeholder="Jax, Aatrox, Lucian..."
-                value={name ? name : ''}
-                autoComplete="off"
-              />
-              <button
-                onClick={() => handleChampion(selectedChampion)}
-                className="absolute inset-y-0 right-0 flex items-center rounded-r bg-secondary h-[100%] px-2 text-white"
-              >
-                Buscar
-              </button>
-            </div>
-            <ul
-              id="champ-list"
-              className={`absolute border border-secondary w-[100%] top-[calc(100%+6px)] left-0 bg-primary rounded transition-opacity duration-300 ${
-                champions && champions.length > 0 && focus
-                  ? 'opacity-100'
-                  : 'pointer-events-none opacity-0'
-              }`}
+    <header className='px-2 pt-2 pb-0' ref={ref}>
+      <div className='container flex justify-between items-center py-3 mx-auto'>
+        <Link
+          href='/'
+          className='text-white text-xl font-bold bg-gradient-to-t to-0% from-secondary from-50% px-1'
+        >
+          LoL DataHub
+        </Link>
+        <div
+          className='relative w-[400px] transition-[width] duration-300 ease-in-out focus-within:w-[60%]'
+          ref={wrapperRef}
+        >
+          <div className='relative rounded-md'>
+            <input
+              onChange={(el) => handleInput(el.currentTarget.value)}
+              type='text'
+              name='champ-name'
+              id='champ-name'
+              className={
+                'block bg-primary w-[100%] rounded-md border border-secondary py-1.5 pl-3 pr-20 min-w-[340px] text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6'
+              }
+              placeholder='Jax, Aatrox, Lucian...'
+              value={name ? name : ''}
+              autoComplete='off'
+            />
+            <button
+              onClick={() => handleChampion(selectedChampion)}
+              className='absolute inset-y-0 right-0 flex items-center rounded-r bg-secondary h-[100%] px-2 text-white'
             >
-              {champions &&
-                champions.map((champ, index) => (
-                  <li
-                    key={`champ-${index}`}
-                    className="px-3 py-1 cursor-pointer hover:bg-secondary transition-all duration-200"
-                    onClick={() => handleChampion(champ)}
-                  >
-                    {champ.name}
-                  </li>
-                ))}
-            </ul>
+              Buscar
+            </button>
           </div>
+          <ul
+            id='champ-list'
+            className={`absolute flex p-2 flex-wrap border border-secondary w-[100%] top-[calc(100%+6px)] max-h-[50vh] overflow-x-hidden overflow-scroll left-0 bg-primary rounded transition-opacity duration-300 ${
+              champions && champions.length > 0 && focus
+                ? 'opacity-100'
+                : 'pointer-events-none opacity-0'
+            }`}
+          >
+            {champions &&
+              champions.map((champ, index) => (
+                <li
+                  key={`champ-${index}`}
+                  className='flex flex-col items-center justify-center p-4 cursor-pointer hover:bg-secondary transition-all duration-200 text-center w-[calc(100%/6)]'
+                  onClick={() => handleChampion(champ)}
+                >
+                  <div className='flex items-center justify-center border border-secondary]'>
+                    <img
+                      className='h-[100%] w-[100%] object-cover'
+                      src={`${process.env.NEXT_PUBLIC_ASSETS_URL}champion-icons/${champ.key}.png`}
+                      alt={champ.name}
+                    ></img>
+                  </div>
+                  {champ.name}
+                </li>
+              ))}
+          </ul>
         </div>
       </div>
     </header>

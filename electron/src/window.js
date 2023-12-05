@@ -1,15 +1,14 @@
 const { BrowserWindow } = require('electron');
 const path = require('node:path');
-require('dotenv').config()
+require('dotenv').config();
 
 class WindowManager {
-  
   /**
    * Creates a new instance of WindowManager.
    *
    * @constructor
    */
-  constructor () {
+  constructor() {
     this.window = null;
     this.express_url = `http://localhost:${process.env.EXPRESS_PORT}`;
     this.devMode = process.env.NODE_ENV !== 'production';
@@ -34,14 +33,12 @@ class WindowManager {
   createWindow() {
     this.window = new BrowserWindow({
       width: 1280,
-      height: 720,
+      height: 830,
       webPreferences: {
         preload: path.join(__dirname, 'preload.js'),
         nodeIntegration: true,
       },
     });
-
-    this.devMode && this.window.webContents.openDevTools();
 
     this.window.loadURL(this.express_url);
     // if (this.devMode) {
@@ -49,7 +46,7 @@ class WindowManager {
     // } else {
     //   this.window.loadFile(path.join(__dirname, '../out/index.html'));
     // }
-  };
+  }
 
   /**
    * Load a page and optionally display it as a modal.

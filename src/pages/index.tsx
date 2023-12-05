@@ -24,7 +24,7 @@ export default function Home({ title, description }: PageProps) {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Head>
-      <TopChampionsByLane />
+      {/* <TopChampionsByLane /> */}
     </>
   );
 }

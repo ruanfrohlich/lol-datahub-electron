@@ -1,5 +1,5 @@
 import Layout from '@/layout/layout';
-import TableOfSkills from './TableOfSkills/index';
+import SkillsTable from './SkillsTable/index';
 import TopChampionsByLane from './TopChampionsByLane';
 import ChampionBuild from './ChampionBuild';
 import TheTitle from './objects/TheTitle';
@@ -9,7 +9,7 @@ import Tooltip from './objects/Tooltip';
 
 export {
   Layout,
-  TableOfSkills,
+  SkillsTable,
   TopChampionsByLane,
   ChampionBuild,
   TheTitle,
