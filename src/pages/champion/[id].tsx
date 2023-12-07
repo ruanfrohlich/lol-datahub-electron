@@ -11,7 +11,7 @@ import { capitalized } from '@/utils/general';
 import { TChampion } from '@/interfaces';
 import { ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { ParsedUrlQuery } from 'querystring';
-import champBuild from '@/cache-files/nasus-top.json';
+import champBuild from '@/data/cache/nasus-top.json';
 import Runes from '@/components/Runes';
 
 export const getStaticPaths: GetStaticPaths = async () => {
