@@ -6,6 +6,7 @@ import TheTitle from './objects/TheTitle';
 import Loading from './modals/Loading';
 import { AppContext, AppProvider } from './common/AppProvider';
 import Tooltip from './objects/Tooltip';
+import TheChart from './TheChart';
 
 export {
   Layout,
@@ -17,4 +18,5 @@ export {
   AppContext,
   AppProvider,
   Tooltip,
+  TheChart,
 };

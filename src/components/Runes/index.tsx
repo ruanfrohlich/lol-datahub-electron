@@ -66,7 +66,7 @@ const Runes = ({
           />
         </div>
         {secondaryRunesList.slice(1).map((rune) => (
-          <div className='flex justify-center'>
+          <div className='flex justify-center' key={rune}>
             <img
               className='w-12 h-12'
               src={getRuneImage(rune)}

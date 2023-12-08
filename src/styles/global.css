@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.recharts-text,
+.recharts-polar-angle-axis-tick-value {
+  font-size: 12px;
+}
+
 @layer base {
   /* Firefox */
   * {

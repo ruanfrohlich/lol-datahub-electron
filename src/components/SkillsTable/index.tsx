@@ -3,6 +3,7 @@ import { Skills } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { ParsedUrlQuery } from 'querystring';
 import { TChampion } from '@/interfaces';
 import skillsImages from '@/data/skillsImages.json';
+import TheChart from '../TheChart';
 
 interface ISkillsTable {
   query: ParsedUrlQuery;
@@ -29,23 +30,36 @@ export default function SkillsTable({
     return img.split('Icons2D/')[1].toLowerCase();
   };
 
+  const attrsData = Object.keys(champion.info).map((object) => {
+    return {
+      subject: capitalized(object),
+      A: champion.info[object],
+      fullMark: 10,
+    };
+  });
+
   return (
     <div className={className}>
       <div className='border border-secondary'>
         <div className='bg-primary p-5'>
-          <div className='bg-primary flex items-center gap-[20px] flex-row'>
-            <div className='h-[98px] w-[98px] flex items-center justify-center border border-secondary'>
-              <img
-                className='h-[100%] w-[100%] object-cover'
-                src={`${process.env.NEXT_PUBLIC_ASSETS_URL}champion-icons/${champion.key}.png`}
-                alt={query.id as string}
-              ></img>
+          <div className='bg-primary flex items-center justify-between gap-[20px]'>
+            <div className='flex gap-[20px] items-end'>
+              <div className='h-[98px] w-[98px] flex items-center justify-center border border-secondary'>
+                <img
+                  className='h-[100%] w-[100%] object-cover'
+                  src={`${process.env.NEXT_PUBLIC_ASSETS_URL}champion-icons/${champion.key}.png`}
+                  alt={query.id as string}
+                ></img>
+              </div>
+              <div className='text-2xl'>
+                <p>{capitalized(champion.name as string)}</p>
+                <span className='text-[rgb(100,100,100)] text-[0.6em]'>
+                  {capitalized(champion.title)}
+                </span>
+              </div>
             </div>
-            <div className='text-2xl'>
-              <p>{capitalized(query.id as string)}</p>
-              <span className='text-[rgb(100,100,100)] text-[0.6em]'>
-                {champion.title}
-              </span>
+            <div className='relative w-[40%] h-[200px] mr-3'>
+              <TheChart data={attrsData} />
             </div>
           </div>
         </div>

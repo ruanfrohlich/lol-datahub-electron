@@ -1,7 +1,7 @@
 import { ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { Tooltip } from '@/components';
 import { useEffect, useRef, useState } from 'react';
-import items from '@/data/items.json'
+import items from '@/data/items.json';
 
 interface Props {
   champion: string;
@@ -25,8 +25,16 @@ export default function ChampionBuild({
   const buildList = useRef<HTMLDivElement>(null);
   const [boxWidth, setBoxWidth] = useState<number>(null);
 
-  useEffect(() => {
+  const checkBoxWidth = () => {
     setBoxWidth(buildList.current.getBoundingClientRect().width);
+
+    window.addEventListener('resize', () =>
+      setBoxWidth(buildList.current.getBoundingClientRect().width)
+    );
+  };
+
+  useEffect(() => {
+    checkBoxWidth();
   }, []);
 
   return (
@@ -42,35 +50,38 @@ export default function ChampionBuild({
         return (
           <div
             key={`buy-order-${i}`}
-            className="flex justify-between items-center z-0"
+            className='flex justify-between items-center z-0'
             ref={buildList}
           >
-            <h3 className="uppercase relative">
-              <span className="p-1 rounded bg-secondary overflow-hidden">
+            <h3 className='uppercase relative'>
+              <span className='p-1 rounded bg-secondary overflow-hidden'>
                 {build}
               </span>
               <span
-                className="z-[-1] absolute top-[50%] translate-y-[-50%] left-0 border-b border-secondary"
+                className='z-[-1] absolute top-[50%] translate-y-[-50%] left-0 border-b border-secondary'
                 style={{
                   width: boxWidth + 'px',
                 }}
               ></span>
             </h3>
-            <ul className="w-[min(70%,362px)] flex gap-2 justify-start bg-primary">
+            <ul className='w-[min(70%,362px)] flex gap-2 justify-start bg-primary'>
               {championBuild[build].map(
                 (item: { name: string; id: number }, j: number) => {
                   return (
                     <li
-                      className="group flex gap-[10px]"
+                      className='group flex gap-[10px]'
                       key={`buy-${i}-item-${j}`}
                     >
-                      <span className="relative">
+                      <span className='relative'>
                         <Tooltip>
                           {item.name ? item.name : 'Nome indisponível'}
                         </Tooltip>
                         <img
-                          className="w-[30px] h-[30px] object-cover object-center rounded-sm border-2 border-secondary"
-                          src={`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/${items.find((object) => object.id == item.id).iconPath.split('/')[6].toLocaleLowerCase()}`}
+                          className='w-[30px] h-[30px] object-cover object-center rounded-sm border-2 border-secondary'
+                          src={`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/${items
+                            .find((object) => object.id == item.id)
+                            .iconPath.split('/')[6]
+                            .toLocaleLowerCase()}`}
                           alt={item.name}
                         />
                       </span>

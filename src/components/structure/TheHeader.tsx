@@ -79,7 +79,7 @@ const TheHeader = forwardRef(function TheHeader(
   }, [wrapperRef]);
 
   return (
-    <header className='px-2 pt-2 pb-0 z-[9999]' ref={ref}>
+    <header className='relative px-2 pt-2 pb-0 z-[999]' ref={ref}>
       <div className='container flex justify-between items-center py-3 mx-auto'>
         <Link
           href='/'
@@ -115,7 +115,7 @@ const TheHeader = forwardRef(function TheHeader(
           </div>
           <ul
             id='champ-list'
-            className={`absolute flex p-2 flex-wrap border border-secondary w-[100%] top-[calc(100%+6px)] max-h-[50vh] overflow-x-hidden overflow-scroll left-0 bg-primary rounded transition-opacity duration-300 ${
+            className={`absolute flex p-2 flex-wrap border border-secondary w-[100%] top-[calc(100%+6px)] max-h-[500px] overflow-x-hidden overflow-scroll left-0 bg-primary rounded transition-opacity duration-300 ${
               champions && champions.length > 0 && focus
                 ? 'opacity-100'
                 : 'pointer-events-none opacity-0'
@@ -125,7 +125,7 @@ const TheHeader = forwardRef(function TheHeader(
               champions.map((champ, index) => (
                 <li
                   key={`champ-${index}`}
-                  className='flex flex-col items-center justify-center p-4 cursor-pointer hover:bg-secondary transition-all duration-200 text-center w-[calc(100%/6)]'
+                  className='flex flex-col items-center justify-start gap-2 p-4 cursor-pointer hover:bg-secondary transition-all duration-200 text-center w-[calc(100%/6)]'
                   onClick={() => handleChampion(champ)}
                 >
                   <div className='flex items-center justify-center border border-secondary]'>
