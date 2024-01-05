@@ -1,4 +1,4 @@
-import { Champion, ChampionRequestData } from 'lib/LA/LA.DataTypes/LA.Interfaces';
+import { Champion, ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 
 interface RequestError {
   message: string;

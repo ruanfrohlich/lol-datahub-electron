@@ -1,6 +1,6 @@
 export interface ChampionRequestData{ 
   skills: Skills;
-  build: Blocks[];
+  build: Blocks;
   spells: string[]; 
 }
 
@@ -12,23 +12,21 @@ export interface Champion {
 }
 
 export interface Skills {
-  q: Skill;
-  w: Skill;
-  e: Skill;
-  r: Skill;
-}
-
-export interface Skill {
-  imgURL: string;
-  order: string[];
+  q: number[];
+  w: number[];
+  e: number[];
+  r: number[];
 }
 
 export interface Blocks {
-  label: string,
-  items: Item[]  
+  starter: Item[],
+  early: Item[],
+  core: Item[],
+  full: Item[], 
+  situational: Item[]
 }
 
 export interface Item {
-  icon: string;
+  id: string;
   name: string;
 }

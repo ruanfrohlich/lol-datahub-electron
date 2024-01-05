@@ -10,7 +10,7 @@ const TheHeader = forwardRef(function TheHeader(
   ref: LegacyRef<HTMLElement>
 ) {
   const [selectedChampion, setSelectedChampion] = useState<TChampion>(null);
-  const [champions, setChampions] = useState<TChampion>(null);
+  const [champions, setChampions] = useState<TChampion[]>(null);
   const [focus, setFocus] = useState<boolean>(false);
   const [name, setName] = useState<string>(null);
   const router = useRouter();

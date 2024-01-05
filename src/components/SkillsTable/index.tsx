@@ -20,7 +20,7 @@ export default function SkillsTable({
 }: ISkillsTable) {
   const getSkillImage = (spellKey: string) => {
     const spells = skillsImages.find(
-      (object) => object.championId == champion.key
+      (object) => object.championId.toString() === champion.key
     ).spells;
 
     const img = spells.find(

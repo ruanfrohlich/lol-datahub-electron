@@ -26,8 +26,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps<{
-  champion: TChampion;
   title: string;
+  champion: TChampion;
   build: ChampionRequestData;
   query: ParsedUrlQuery;
   error: object;
@@ -53,7 +53,7 @@ export const getStaticProps: GetStaticProps<{
       error: null,
       description: `Informações sobre items e habilidades do campeão ${capitalized(
         champion.name
-      )}`,
+      )}`
     },
   };
 };
@@ -125,7 +125,7 @@ export default function ChampionPage({
         </section>
       ) : (
         <div className='container mx-auto'>
-          Ops! O campeão {champion ? champion : 'selecionado'} não foi
+          Ops! O campeão {champion ? champion.name : 'selecionado'} não foi
           encontrado :{'('}
         </div>
       )}
