@@ -6,7 +6,7 @@ import {
   GetStaticPropsContext,
   InferGetStaticPropsType,
 } from 'next/types';
-import { SkillsTable, ChampionBuild, TheTitle, Tooltip } from '@/components';
+import { SkillsTable, ChampionBuild, Title, Tooltip } from '@/components';
 import { capitalized } from '@/utils/general';
 import { TChampion } from '@/interfaces';
 import { ChampionRequestData } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
@@ -80,11 +80,11 @@ export default function ChampionPage({
       {!error ? (
         <section id='champion-data'>
           <div className='container mx-auto'>
-            <TheTitle
+            <Title
               type='secondary-white'
               level='h2'
               className='mb-4'
-            >{`${capitalized(champion.name)} Build & Skills`}</TheTitle>
+            >{`${capitalized(champion.name)} Build & Skills`}</Title>
             <div className='grid grid-rows-3 xl:grid-rows-2 grid-cols-3 grid-flow-col gap-3'>
               <SkillsTable
                 className='col-span-2'

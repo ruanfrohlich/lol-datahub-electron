@@ -3,7 +3,7 @@ import { Skills } from '@/lib/LA/LA.DataTypes/LA.Interfaces';
 import { ParsedUrlQuery } from 'querystring';
 import { TChampion } from '@/interfaces';
 import skillsImages from '@/data/skillsImages.json';
-import TheChart from '../TheChart';
+import TheChart from '../Chart';
 
 interface ISkillsTable {
   query: ParsedUrlQuery;

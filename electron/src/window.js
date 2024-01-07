@@ -32,8 +32,8 @@ class WindowManager {
    */
   createWindow() {
     this.window = new BrowserWindow({
-      width: 1280,
-      height: 830,
+      width: 1440,
+      height: 960,
       webPreferences: {
         preload: path.join(__dirname, 'preload.js'),
         nodeIntegration: true,

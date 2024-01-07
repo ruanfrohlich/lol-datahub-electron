@@ -1,6 +1,6 @@
 import { useAppProvider } from '../common/AppProvider';
 
-const TheLoadingModal = () => {
+const LoadingModal = () => {
   const { globalState: { modalContent, openModal } } = useAppProvider();
 
   return (
@@ -10,4 +10,4 @@ const TheLoadingModal = () => {
   );
 };
 
-export default TheLoadingModal;
+export default LoadingModal;

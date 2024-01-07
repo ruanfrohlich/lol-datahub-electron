@@ -1,4 +1,4 @@
-import TheHeader from '@/components/structure/TheHeader';
+import Header from '@/components/Header';
 import { useEffect, useRef, useState } from 'react';
 
 export default function Layout({ children }) {
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <TheHeader ref={headerRef} />
+      <Header ref={headerRef} />
       <main
         className='py-7'
         style={{

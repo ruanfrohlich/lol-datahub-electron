@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import type { GetStaticProps } from 'next';
-import { TopChampionsByLane } from '@/components';
 
 interface PageProps {
   title: string;

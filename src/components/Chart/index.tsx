@@ -21,7 +21,7 @@ const {
   theme: { colors },
 } = require('../../../tailwind.config');
 
-const TheChart = memo(function TheChart(props: ITheChartProps) {
+const Chart = memo(function TheChart(props: ITheChartProps) {
   return (
     <ResponsiveContainer width='100%' height='100%'>
       <RadarChart cx='50%' cy='50%' outerRadius='80%' data={props.data}>
@@ -40,4 +40,4 @@ const TheChart = memo(function TheChart(props: ITheChartProps) {
   );
 });
 
-export default TheChart;
+export default Chart;

@@ -14,7 +14,7 @@ interface TitleProps {
  * @return {ReactNode} Componente de título personalizável 
  */
 
-const TheTitle = ({type, level, className, ...props}: TitleProps) => {
+const Title = ({type, level, className, ...props}: TitleProps) => {
   const CustomTitle = level;
   let classes = 'inline-block text-[26px] font-bold ';
 
@@ -40,4 +40,4 @@ const TheTitle = ({type, level, className, ...props}: TitleProps) => {
   );
 };
 
-export default TheTitle;
+export default Title;

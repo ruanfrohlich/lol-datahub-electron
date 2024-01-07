@@ -1,3 +1,31 @@
+<center>
+
+<h1>lol-datahub-electron</h1>
+
+<p>Obtenha automaticamente tudo o que você precisa para ganhar sua partida de League of Legends.</p>
+
+</center>
+
+</br>
+
+## Dados sobre o desenvolvimento
+
+<details>
+  <summary><b>Interface atual do aplicativo</b></summary>
+
+</br>
+
+![Imagem da interface](/repo/interface.png/)
+
+</br>
+
+</details>
+
+<details>
+  <summary><b>Informações sobre os dados do League of Legends</b></summary>
+
+</br>
+
 ## League Client API
 
 https://www.mingweisamuel.com/lcu-schema/tool/#/Plugin%20lol-perks
@@ -65,3 +93,6 @@ https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/defau
 https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/
 ```
 
+</br>
+
+<details>
